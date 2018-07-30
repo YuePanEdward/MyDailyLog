@@ -18,8 +18,39 @@ For more details, please refer to https://askubuntu.com/questions/140246/how-do-
 2018.7.25(Daily):Review pointcloud registration method such as 4PCS and Super4PCS, they are the improvement version of RANSAC (which has o(n^3) complexity according to the paper). 
 4PCS:o(n^2), use the stable affine transformation property for 4 points set. It's really robust to noise.
 Super4PCS:o(n), improve 4PCS by using the intelligent indexing strategy so its efficiency is literally awesome. It applys the quatra-tree and angle-distance hash stuff according to the paper. Reviewer of 3DV2018 said it shall be the baseline of my algorithm so I' will try it on a bit more large scale point clouds.
+Details:
+4pcs and super4pcs
+RANSAC o(n^3)
+4PCS   o(n^2)
+Super 4PCS o(n)
 
-2018.7.26(Daily):Tuning the parameters of Google Cartographer really sucks but I've sloved a part of them, at less the fact that Jackal can do basic mapping and localization around the lab and corridor. The problem is mainly due to the rotation, the absence of IMU and the failure of loop closure detection.
+4PCS for two pointcloud S and T
+find several(L) 4 approximate coplanar points from S,called the group M
+then use the d1,d2,e1,e2 to find the candidate 4point groups in T, which meets the affine 
+transformation's property
+and then use the angle alpha to delete some impossible candidates
+then use RANSAC's scheme to get the best one from these candidates, which giving a better
+efficiency than RANSAC
+Super4PCS use the smart indexing strategy for both d's search (search candidate pairs) and 
+the further selecting so that have a linear complexity, which is progressison of 4PCS
+for more details,please refer to https://blog.csdn.net/Ha_ku/article/details/79480613
+4PCS's PPT and project website http://graphics.stanford.edu/~niloy/research/fpcs/fpcs_sig_08.html
+super4PCS's PPT and project website http://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/ 
+May be i will further write a Zhihu Anwser on it.  
+Codes: 4PCS http://docs.pointclouds.org/trunk/classpcl_1_1registration_1_1_f_p_c_s_initial_alignment.html
+       Super4PCS https://github.com/nmellado/Super4PCS  
+       run Super4PCS on ubuntu  https://blog.csdn.net/Yangzhihua1347142721/article/details/50205237
 
+2018.7.26(Daily):Tuning the parameters of Google Cartographer really sucks but I've sloved a part of them, at less the fact that Jackal can do basic mapping and localization around the lab and corridor. 
+The problem is mainly due to the rotation, the absence of IMU and the failure of loop closure detection.
+Jackal's system setting: Once jackal is powered on, ros.launch is launched
+the automatic launch tree is listed below
+ros.launch->accessories.launch
+          ->base.launch        ->description.launch(something about urdf, published by robot_state_publisher)
+                               ->control.launch(ekf_localization_node, about the sensor intergration)
+                               ->teleop.launch(connect with PS4 joystick by publishing geometry_msgs/Twist, specialfized in the robot_localization.yaml file)
+                               
 2018.7.27(Daily):Try to configure the GPS RTK on jackal. A lot of stuffs to done. For details of the setup of GPS and RTK, please refer to the formal document and the experiment log given by Noal. Noal is a awesome guy, I will miss him.
 Besides, I fork the personal website of Zhangyixiao to construct my own website. I suppose it's not a plagrisim or something like that. Anyway, thanks, Zhang yixiao.
+
+2018.7.29(Daily):An excellent blog for pointcloud registration, see: https://www.cnblogs.com/yhlx125/p/4955337.html
