@@ -41,6 +41,11 @@ Codes: 4PCS http://docs.pointclouds.org/trunk/classpcl_1_1registration_1_1_f_p_c
        Super4PCS https://github.com/nmellado/Super4PCS  
        run Super4PCS on ubuntu  https://blog.csdn.net/Yangzhihua1347142721/article/details/50205237
 
+
+2018.8.8(Daily): Reinstall Rtabmap on my desktop
+I Can't compile the rtabmap_ros package, something wrong with opencv version collision.
+search for the version command : pkg-config --modversion opencv
+
 2018.7.26(Daily):Tuning the parameters of Google Cartographer really sucks but I've sloved a part of them, at less the fact that Jackal can do basic mapping and localization around the lab and corridor. 
 The problem is mainly due to the rotation, the absence of IMU and the failure of loop closure detection.
 Jackal's system setting: Once jackal is powered on, ros.launch is launched
