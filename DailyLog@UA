@@ -104,6 +104,9 @@ Fortunately, this work has been done by Ruifan via a matlab programme
 
 Maybe I won't go to Italy to attend the conference 3DV2018. It sucks. Something to arrange. 
 
+2018.8.10(Daily): Try to compare among ekf_odom0(old_imu+wheeled odom,topic name:odometry/filtered),
+ekf_odom1(kvh1750_imu+wheeled odom,topic name:odometry/filtered1) and visual odom(topic name:rtabmap/odom)
+The startup launch file of ekf_odom1 is jackal/control control_1.launch
 
 
 
