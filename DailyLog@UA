@@ -58,4 +58,24 @@ Besides, I fork the personal website of Zhangyixiao to construct my own website.
 2018.8.8(Daily): Reinstall Rtabmap on my desktop
 I Can't compile the rtabmap_ros package, something wrong with opencv version collision.
 search for the version command : pkg-config --modversion opencv
+Finally, I managed to install ratabmap on my laptop. I think the main problem falls on the version collision of opencv 
+The preinstall opencv is on 2.4.11 but the opencv provided by rtabmap dependency is not the same
+So I have to install it on another computer that is free of opencv (no preinstalled opencv) because I don't actually know how to remove 
+the opencv completely.
+
+For Rtabmap, as the visualization part is really slow and often stuck on Jackal's own computer, we decide to run rtabmap slam calculation on 
+Jcakal's inner computer (provided the trajectory /visual odometry of the robot) and just use the laptop to visualize it. It works but there are 
+still some problem of the tf. It really sucks.
+
+The Next step is to record all the data and compare the pose of robot for 
+1: Rtabmap with different sensor integrated in EKF
+2: Cartographer with different sensor intergrated and different parameter setting
+3: Vicon Ground Truth (You need a transformation from map frame [vicon data fixed to] to odom frame [robot trajectory refer to, the starting point of robot]
+Fortunately, this work has been done by Ruifan via a matlab programme
+4: Other SLAM algorithm's result
+
+
+
+
+
 
