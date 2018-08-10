@@ -86,7 +86,7 @@ Other Tasks for me:
 Everything sucks, but you need to persist.
 You need to trust yourself.
 
-2018.8.9(Daily): Finally, I managed to install ratabmap on my laptop. I think the main problem falls on the version collision of opencv 
+2018.8.9(Daily): Finally, I managed to install rtabmap on my laptop. I think the main problem falls on the version collision of opencv 
 The preinstall opencv is on 2.4.11 but the opencv provided by rtabmap dependency is not the same
 So I have to install it on another computer that is free of opencv (no preinstalled opencv) because I don't actually know how to remove 
 the opencv completely.
