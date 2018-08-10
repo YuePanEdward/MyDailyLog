@@ -55,10 +55,38 @@ Besides, I fork the personal website of Zhangyixiao to construct my own website.
 
 2018.7.29(Daily):An excellent blog for pointcloud registration, see: https://www.cnblogs.com/yhlx125/p/4955337.html
 
-2018.8.8(Daily): Reinstall Rtabmap on my desktop
+2018.8.8(Important): Reinstall Rtabmap on my desktop
 I Can't compile the rtabmap_ros package, something wrong with opencv version collision.
 search for the version command : pkg-config --modversion opencv
-Finally, I managed to install ratabmap on my laptop. I think the main problem falls on the version collision of opencv 
+
+Tasks given by Martin:
+1.Cartographer parameter tunning document
+2.Cartographer accuracy measurement (2+ ways ) and see if it has the covariance
+3.Cartographer outdoor sensor fusion test: how to use gps rtk 
+By the way, setup gps rtk and figure out how to transfer its coordinate system
+4.Cartographer indoor sensor fusion test togther with Rtabmap
+for details, you can refer to 8.9's log. The map is not vital, what we really care about is the robot's pose
+Remember rtabmap has a mapping and localization process respectively, so determine which one is better for the pose 
+If VO is really slow and unaccepteable, we can try to replace it with the /odometry/filtered as the input of ratbmap mapping process for better performance
+5. Velodyne Calibration
+6. （Optional）Jetson setup and the installation of all kinds of sensor driver. Oh my god, it's really frustrating.
+7. （Optional）LOAM test， find out if there's a ros opensource package for V-LOAM， which is the state-of-art for Viusl-Laser-Intergrated SLAM solution
+8. Others......
+
+Other Tasks for me:
+1.Finish the paper for ISPRS, conduct the following experiment:
+(1) To prove global optimal matching is better than closest point. Conduct this one without hybrid metric
+(2) To prove hybrid metric is better than single metric. 
+(3) More comparsion with state-of-art solutions like 4PCS,Super4PCS...etc.
+
+2.INS project Android programming 
+
+3. Making poster for (1) SLAM project  (2) IGSP 3DV-Conference
+
+Everything sucks, but you need to persist.
+You need to trust yourself.
+
+2018.8.9(Daily): Finally, I managed to install ratabmap on my laptop. I think the main problem falls on the version collision of opencv 
 The preinstall opencv is on 2.4.11 but the opencv provided by rtabmap dependency is not the same
 So I have to install it on another computer that is free of opencv (no preinstalled opencv) because I don't actually know how to remove 
 the opencv completely.
@@ -74,7 +102,7 @@ The Next step is to record all the data and compare the pose of robot for
 Fortunately, this work has been done by Ruifan via a matlab programme
 4: Other SLAM algorithm's result
 
-
+Maybe I won't go to Italy to attend the conference 3DV2018. It sucks. Something to arrange. 
 
 
 
