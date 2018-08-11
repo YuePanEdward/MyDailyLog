@@ -108,5 +108,7 @@ Maybe I won't go to Italy to attend the conference 3DV2018. It sucks. Something 
 ekf_odom1(kvh1750_imu+wheeled odom,topic name:odometry/filtered1) and visual odom(topic name:rtabmap/odom)
 The startup launch file of ekf_odom1 is jackal/control control_1.launch
 
+Some problem of odom conflict. ekf_localization, ekf_localization1 and rtabmap odom all related to odom
+so the odom frmae in tf tree keeps changing. Oh my god, that's frustrating
 
 
