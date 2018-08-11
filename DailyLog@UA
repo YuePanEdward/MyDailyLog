@@ -111,4 +111,5 @@ The startup launch file of ekf_odom1 is jackal/control control_1.launch
 Some problem of odom conflict. ekf_localization, ekf_localization1 and rtabmap odom all related to odom
 so the odom frmae in tf tree keeps changing. Oh my god, that's frustrating
 
-
+2018.8.11（Daily）： Add a visualiztion function to IGSP so that we don't need to use cloudcompare to see the result.
+Push it to github. Next step is to make a video about it and finish the ISPRS paper.
