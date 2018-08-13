@@ -182,9 +182,12 @@ For Rtabmap, as the visualization part is really slow and often stuck on Jackal'
 It works but there are still some problem of the tf. It really sucks.
 
 The Next step is to record all the data and compare the pose of robot for 
-### 1: Rtabmap with different sensor integrated in EKF
+### 1: Rtabmap with different sensor integrated in EKF 
+navigation mode output ekf-global
 ### 2: Cartographer with different sensor intergrated and different parameter setting
+directly output /trajectory_node_list
 ### 3: Vicon Ground Truth 
+output /vicon/jackal
 
 (You need a transformation from map frame {vicon data fixed to} to odom frame {robot trajectory refer to}, the starting point of robot)
 
