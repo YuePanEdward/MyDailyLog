@@ -82,9 +82,9 @@ The problem is mainly due to the rotation, the absence of IMU and the failure of
 Jackal's system setting: Once jackal is powered on, ros.launch is launched
 the automatic launch tree is listed below
 > ros.launch->accessories.launch
->>          ->base.launch        ->description.launch(something about urdf, published by robot_state_publisher)
->>                               ->control.launch(ekf_localization_node, about the sensor intergration)
->>                               ->teleop.launch(connect with PS4 joystick by publishing geometry_msgs/Twist, specialfized in the robot_localization.yaml file)
+>          ->base.launch        ->description.launch(something about urdf, published by robot_state_publisher)
+>                               ->control.launch(ekf_localization_node, about the sensor intergration)
+>                               ->teleop.launch(connect with PS4 joystick by publishing geometry_msgs/Twist, specialfized in the robot_localization.yaml file)
 
 According to http://docs.ros.org/melodic/api/robot_localization/html/index.html#
 
