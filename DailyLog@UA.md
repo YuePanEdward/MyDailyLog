@@ -217,3 +217,11 @@ Finish the IGSP video and then refine my website.
 # 2018.8.13（Daily）：
 The problem of g2o graph optimaization failure is sloved by installing GTSAM (another useful graph optimization tool)
 
+website:https://bitbucket.org/gtborg/gtsam
+
+#### What is GTSAM?
+
+GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.
+
+On top of the C++ library, GTSAM includes a MATLAB interface (enable GTSAM_INSTALL_MATLAB_TOOLBOX in CMake to build it). A Python interface is under development.
+
