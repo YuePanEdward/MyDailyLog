@@ -1,4 +1,5 @@
-2018.7.14(Very Important): Finally, the resolution and graphic card problem of my ubuntu16.04 is solved.
+# 2018.7.14(Very Important): 
+Finally, the resolution and graphic card problem of my ubuntu16.04 is solved.
 It's really frustrating for having Nvidia independent graphic card togther with Intel intergrated graphic card on my laptop.
 Follow the instruction here when you cannot login with out the recovery mood: 
 https://blog.csdn.net/kilotwo/article/details/79258107
@@ -7,15 +8,18 @@ https://blog.csdn.net/ssmixi/article/details/73483795
 And when you install the drvier, remember that you should not update(or something like that) the kernel and do not adpat the X server.
 After that, for use the intel graphic card without Nvidia one, you need to install the bumblee-Nvidia to switch between the graphic cards.
 
-2018.7.14(Important): Solved the source problem with aliyun
+# 2018.7.14(Important): 
+Solved the source problem with aliyun
 It's not in China, so gedit the /etc/apt/source.list file and delete aliyun sources
 or there would be unmet dependency error when you do apt-get xxx things.
 Add -f after the apt-get to get through this problem
 For more details, please refer to https://askubuntu.com/questions/140246/how-do-i-resolve-unmet-dependencies-after-adding-a-ppa.
  
-2018.7.23(Very Important): When constructing the connection between computer(desktop or laptop) and the robot (jackal), you need to edit the /etc/hosts file and add "192.168.0.1 jackal" (Host IP and Host name) to it except for edit the ~/.bashrc file. Or your computer won't accept the message coming from the robot.
+# 2018.7.23(Very Important): 
+When constructing the connection between computer(desktop or laptop) and the robot (jackal), you need to edit the /etc/hosts file and add "192.168.0.1 jackal" (Host IP and Host name) to it except for edit the ~/.bashrc file. Or your computer won't accept the message coming from the robot.
 
-2018.7.25(Daily):Review pointcloud registration method such as 4PCS and Super4PCS, they are the improvement version of RANSAC (which has o(n^3) complexity according to the paper). 
+# 2018.7.25(Daily):
+Review pointcloud registration method such as 4PCS and Super4PCS, they are the improvement version of RANSAC (which has o(n^3) complexity according to the paper). 
 4PCS:o(n^2), use the stable affine transformation property for 4 points set. It's really robust to noise.
 Super4PCS:o(n), improve 4PCS by using the intelligent indexing strategy so its efficiency is literally awesome. It applys the quatra-tree and angle-distance hash stuff according to the paper. Reviewer of 3DV2018 said it shall be the baseline of my algorithm so I' will try it on a bit more large scale point clouds.
 Details:
@@ -41,7 +45,8 @@ Codes: 4PCS http://docs.pointclouds.org/trunk/classpcl_1_1registration_1_1_f_p_c
        Super4PCS https://github.com/nmellado/Super4PCS  
        run Super4PCS on ubuntu  https://blog.csdn.net/Yangzhihua1347142721/article/details/50205237
 
-2018.7.26(Daily):Tuning the parameters of Google Cartographer really sucks but I've sloved a part of them, at less the fact that Jackal can do basic mapping and localization around the lab and corridor. 
+# 2018.7.26(Daily):
+Tuning the parameters of Google Cartographer really sucks but I've sloved a part of them, at less the fact that Jackal can do basic mapping and localization around the lab and corridor. 
 The problem is mainly due to the rotation, the absence of IMU and the failure of loop closure detection.
 Jackal's system setting: Once jackal is powered on, ros.launch is launched
 the automatic launch tree is listed below
@@ -49,13 +54,22 @@ ros.launch->accessories.launch
           ->base.launch        ->description.launch(something about urdf, published by robot_state_publisher)
                                ->control.launch(ekf_localization_node, about the sensor intergration)
                                ->teleop.launch(connect with PS4 joystick by publishing geometry_msgs/Twist, specialfized in the robot_localization.yaml file)
-                               
-2018.7.27(Daily):Try to configure the GPS RTK on jackal. A lot of stuffs to done. For details of the setup of GPS and RTK, please refer to the formal document and the experiment log given by Noal. Noal is a awesome guy, I will miss him.
+According to http://docs.ros.org/melodic/api/robot_localization/html/index.html#
+All the state estimation nodes in robot_localization share common features, namely:
+    Fusion of an arbitrary number of sensors. The nodes do not restrict the number of input sources. If, for example, your robot has multiple IMUs or multiple sources of odometry information, the state estimation nodes within robot_localization can support all of them.
+    Support for multiple ROS message types. All state estimation nodes in robot_localization can take in nav_msgs/Odometry, sensor_msgs/Imu, geometry_msgs/PoseWithCovarianceStamped, or geometry_msgs/TwistWithCovarianceStamped messages.
+    Per-sensor input customization. If a given sensor message contains data that you don’t want to include in your state estimate, the state estimation nodes in robot_localization allow you to exclude that data on a per-sensor basis.
+    Continuous estimation. Each state estimation node in robot_localization begins estimating the vehicle’s state as soon as it receives a single measurement. If there is a holiday in the sensor data (i.e., a long period in which no data is received), the filter will continue to estimate the robot’s state via an internal motion model.
+All state estimation nodes track the 15-dimensional state of the vehicle: (X,Y,Z,roll,pitch,yaw,X˙,Y˙,Z˙,roll˙,pitch˙,yaw˙,X¨,Y¨,Z¨)
+
+# 2018.7.27(Daily):
+Try to configure the GPS RTK on jackal. A lot of stuffs to done. For details of the setup of GPS and RTK, please refer to the formal document and the experiment log given by Noal. Noal is a awesome guy, I will miss him.
 Besides, I fork the personal website of Zhangyixiao to construct my own website. I suppose it's not a plagrisim or something like that. Anyway, thanks, Zhang yixiao.
 
-2018.7.29(Daily):An excellent blog for pointcloud registration, see: https://www.cnblogs.com/yhlx125/p/4955337.html
+# 2018.7.29(Daily):
+An excellent blog for pointcloud registration, see: https://www.cnblogs.com/yhlx125/p/4955337.html
 
-2018.8.8(Important): Reinstall Rtabmap on my desktop
+# 2018.8.8(Important): Reinstall Rtabmap on my desktop
 I Can't compile the rtabmap_ros package, something wrong with opencv version collision.
 search for the version command : pkg-config --modversion opencv
 
@@ -86,7 +100,8 @@ Other Tasks for me:
 Everything sucks, but you need to persist.
 You need to trust yourself.
 
-2018.8.9(Daily): Finally, I managed to install rtabmap on my laptop. I think the main problem falls on the version collision of opencv 
+# 2018.8.9(Daily): 
+Finally, I managed to install rtabmap on my laptop. I think the main problem falls on the version collision of opencv 
 The preinstall opencv is on 2.4.11 but the opencv provided by rtabmap dependency is not the same
 So I have to install it on another computer that is free of opencv (no preinstalled opencv) because I don't actually know how to remove 
 the opencv completely.
@@ -104,12 +119,14 @@ Fortunately, this work has been done by Ruifan via a matlab programme
 
 Maybe I won't go to Italy to attend the conference 3DV2018. It sucks. Something to arrange. 
 
-2018.8.10(Daily): Try to compare among ekf_odom0(old_imu+wheeled odom,topic name:odometry/filtered),
+# 2018.8.10(Daily): 
+Try to compare among ekf_odom0(old_imu+wheeled odom,topic name:odometry/filtered),
 ekf_odom1(kvh1750_imu+wheeled odom,topic name:odometry/filtered1) and visual odom(topic name:rtabmap/odom)
 The startup launch file of ekf_odom1 is jackal/control control_1.launch
 
 Some problem of odom conflict. ekf_localization, ekf_localization1 and rtabmap odom all related to odom
 so the odom frmae in tf tree keeps changing. Oh my god, that's frustrating
 
-2018.8.11（Daily）： Add a visualiztion function to IGSP so that we don't need to use cloudcompare to see the result.
+# 2018.8.11（Daily）：
+Add a visualiztion function to IGSP so that we don't need to use cloudcompare to see the result.
 Push it to github. Next step is to make a video about it and finish the ISPRS paper.
