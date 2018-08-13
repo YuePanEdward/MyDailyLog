@@ -213,3 +213,7 @@ Push it to github. Next step is to make a video about it and finish the ISPRS pa
 
 # 2018.8.12（Daily）：
 Finish the IGSP video and then refine my website. 
+
+# 2018.8.13（Daily）：
+The problem of g2o graph optimaization failure is sloved by installing GTSAM (another useful graph optimization tool)
+
