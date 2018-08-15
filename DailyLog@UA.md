@@ -225,3 +225,23 @@ GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in 
 
 On top of the C++ library, GTSAM includes a MATLAB interface (enable GTSAM_INSTALL_MATLAB_TOOLBOX in CMake to build it). A Python interface is under development.
 
+# 2018.8.15（Daily）：
+Note: How to use git on Ubuntu?
+
+1. git clone the repository to your desktop
+
+2. cd to the folder
+
+3. git pull origin master
+
+4. do some change
+
+5. git add --all  (please wait)
+
+6. git commit -m "some comment"
+
+7. git push origin master
+
+8. Input your username and password
+
+5. git 
