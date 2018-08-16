@@ -244,4 +244,5 @@ Note: How to use git on Ubuntu?
 
 8. Input your username and password
 
-5. git 
+Another thing: Everytime g2o can't work well, just remember to edit the ekf_config file, you do not need to actually change it, however you need to reload it.
+
