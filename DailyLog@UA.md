@@ -246,3 +246,10 @@ Note: How to use git on Ubuntu?
 
 Another thing: Everytime g2o can't work well, just remember to edit the ekf_config file, you do not need to actually change it, however you need to reload it.
 
+
+
+
+# 2018.8.16(Daily):
+Everytime g2o can't work well, it's the problem of $ROS_PACKAGE_PATH
+You need to reset the path to include /opt/ros/kinetic/share something like that.
+It's so stupid.
