@@ -253,3 +253,8 @@ Another thing: Everytime g2o can't work well, just remember to edit the ekf_conf
 Everytime g2o can't work well, it's the problem of $ROS_PACKAGE_PATH
 You need to reset the path to include /opt/ros/kinetic/share something like that.
 It's so stupid.
+
+# 2018.8.22（Daily):
+A poster symposuim 
+Really tired
+I nedd to focus on TOEFL.
