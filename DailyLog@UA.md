@@ -261,3 +261,7 @@ I nedd to focus on TOEFL.
 
 # 2018.8.24 (Daily):
 My English really sucks. Three months is still not enough for me to improve my Engilsh to a certain level so from my perspective, I still can't make any great progress this time for the TOEFL exam. I am just kicked at my ass this time and my oral English make me frustrating.
+
+# 2018.8.25（Daily）：
+TOEFL Test today.
+The wrost thing is that I burned my own hands, which is really painful. It mitigate a bit after six hours.
