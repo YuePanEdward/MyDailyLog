@@ -265,3 +265,11 @@ My English really sucks. Three months is still not enough for me to improve my E
 # 2018.8.25（Daily）：
 TOEFL Test today.
 The wrost thing is that I burned my own hands, which is really painful. It mitigate a bit after six hours.
+
+# 2018.8.29 (Daily):
+For these three days, I finished the IGSP video and poster. Besides, I translated part of my paper and apply for green valley.
+I feel that all the other students here are so excellent and outstanding. I am just a little nobody. 
+What if I can't change anything even though I work reallt hard?
+I comfort myself that I can walk through it and I can be who I am.
+However......
+Come on, man. 
