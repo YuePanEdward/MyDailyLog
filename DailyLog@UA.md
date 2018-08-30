@@ -273,3 +273,20 @@ What if I can't change anything even though I work reallt hard?
 I comfort myself that I can walk through it and I can be who I am.
 However......
 Come on, man. 
+
+My plan for my undergraduate final year
+1.Keep exercising and playing football (play for Zhenxing Cup)
+2.Keep practicing my English
+3.Apply for graduate school (listed in Evernote)
+4.Learn driving
+5.Internship in green valley.
+6.Be more open-mind and more outgoing. Try something new bravely and come out of your safety zone. Be confident and try to make friends with more people.
+7.Pay attention to your own apperance. Dress decently and be more handsome and attractive.
+8.Try to help others and cultivate your leadership
+9.Don't waste your precious time. Hardworking does not mean the final success but it can really change something.
+
+Use a poem to sum up
+
+Do not go gently into that good night.
+
+Rage,rage, against the dying of light.
