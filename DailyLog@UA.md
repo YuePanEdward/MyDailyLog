@@ -295,17 +295,19 @@ Rage,rage, against the dying of light.
 Don't be too lazy.
 Please be self-disciplined.
 
-AS Gradle problem
+To slove Android Studio Gradle problem
 in build.gradle
 
 change the content to
 
-apply plugin: 'com.android.application'
 
-android {
+
+    apply plugin: 'com.android.application'
+    
+    android {
     compileSdkVersion 26
     buildToolsVersion "27.0.1"
-
+    
     defaultConfig {
         applicationId "com.test.measureapp"
         minSdkVersion 15
@@ -319,11 +321,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
-
-dependencies {
+    }
+    dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:design:26.+'
 }
+
+It really works. Never forget this solution
