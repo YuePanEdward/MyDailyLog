@@ -336,3 +336,9 @@ R30 L30 S19 W24
 Fuck my speaking and writing
 Please keep practicing your speaking and writing and compare it with the best answers.
 Pursue the exllecence.
+
+# 2018.9.5 （Daliy）：
+cartographer problem
+data.time > std::prev(trajectory.end())->first (636703977701130037 vs. 636703977701130037)
+I sometimes meet this problem on my laptop(ubuntu16.04+ros_kinetic).
+But it's just fine on my desktop(ubuntu14.04+ros_indigo).
