@@ -357,3 +357,6 @@ First. What's the problem of velodyne calibration?
 
 According to the paper (CALIBRATION AND STABILITY ANALYSIS OF THE VLP-16 LASER SCANNER),
 they found that the VLP-16 showed a consistent level of performance, in terms of range bias and noise level over the tested temperature range from 0-40°C. A geometric calibration was able to marginally improve the accuracy of the VLP-16 point cloud (by approximately 20%) for a single collection, however the temporal stability of the geometric calibration negated this accuracy improvement. Overall, it was found that there is some long-term walk in the ranging observations from individual lasers within the VLP-16, which likely causes the instability in the determination of geometric calibration parameters. However, despite this range walk, the point cloud delivered from the VLP-16 sensors tested showed an accuracy level within the manufacturer specifications of 3 cm RMSE, with an overall estimated RMSE of range residuals between 22 mm and 27 mm.
+
+How?
+Use two VLP16 lidars to collect data. Use their overlapping points to do least square estimation of geometric calibration parameters.
