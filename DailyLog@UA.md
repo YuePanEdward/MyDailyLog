@@ -342,3 +342,18 @@ cartographer problem
 data.time > std::prev(trajectory.end())->first (636703977701130037 vs. 636703977701130037)
 I sometimes meet this problem on my laptop(ubuntu16.04+ros_kinetic).
 But it's just fine on my desktop(ubuntu14.04+ros_indigo).
+
+# 2018.9.9 (Daliy):
+I'm sicked for almost a week.
+What a terrible experience.
+
+Now back to final job in UA. It's not emergent at all but I just don't want to wait.
+First. What's the problem of velodyne calibration?
+
+(1) if the factory calibration of the instruments was optimized
+(2) if the calibration parameters displayed significant temporal variability
+(3) if the instrument required a significant warm-up period
+(4) whether the results from the instruments are stable over a wide temperature range.
+
+According to the paper (CALIBRATION AND STABILITY ANALYSIS OF THE VLP-16 LASER SCANNER),
+they found that the VLP-16 showed a consistent level of performance, in terms of range bias and noise level over the tested temperature range from 0-40°C. A geometric calibration was able to marginally improve the accuracy of the VLP-16 point cloud (by approximately 20%) for a single collection, however the temporal stability of the geometric calibration negated this accuracy improvement. Overall, it was found that there is some long-term walk in the ranging observations from individual lasers within the VLP-16, which likely causes the instability in the determination of geometric calibration parameters. However, despite this range walk, the point cloud delivered from the VLP-16 sensors tested showed an accuracy level within the manufacturer specifications of 3 cm RMSE, with an overall estimated RMSE of range residuals between 22 mm and 27 mm.
