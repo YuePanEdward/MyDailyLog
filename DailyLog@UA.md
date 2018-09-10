@@ -360,3 +360,6 @@ they found that the VLP-16 showed a consistent level of performance, in terms of
 
 How?
 Use two VLP16 lidars to collect data. Use their overlapping points to do least square estimation of geometric calibration parameters.
+
+VLP16 16beams. FOV horizontal 360  verticle -15-15
+Each beam means a verticle angle of 30/16  ~2 deg 
