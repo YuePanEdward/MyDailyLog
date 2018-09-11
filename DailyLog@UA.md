@@ -337,13 +337,13 @@ Fuck my speaking and writing
 Please keep practicing your speaking and writing and compare it with the best answers.
 Pursue the exllecence.
 
-# 2018.9.5 （Daliy）：
+# 2018.9.5 （Daily）：
 cartographer problem
 data.time > std::prev(trajectory.end())->first (636703977701130037 vs. 636703977701130037)
 I sometimes meet this problem on my laptop(ubuntu16.04+ros_kinetic).
 But it's just fine on my desktop(ubuntu14.04+ros_indigo).
 
-# 2018.9.9 (Daliy):
+# 2018.9.9 (Daily):
 I'm sicked for almost a week.
 What a terrible experience.
 
@@ -363,3 +363,9 @@ Use two VLP16 lidars to collect data. Use their overlapping points to do least s
 
 VLP16 16beams. FOV horizontal 360  verticle -15-15
 Each beam means a verticle angle of 30/16  ~2 deg 
+
+# 2018.9.10(Daily)
+Meet with Martin.
+There's no more work for me to do in this lab.
+I can just arrange my documents and share them on martin's bitbox
+
