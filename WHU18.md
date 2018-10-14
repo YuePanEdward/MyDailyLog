@@ -34,12 +34,19 @@ gfortran -o  应用程序名 代码段名.f90
 
 ## How to use tensorflow
 
-import tensorflow as tf
-tf.enable_eager_execution()
+     import tensorflow as tf
+     tf.enable_eager_execution()
+ 
+     A = tf.constant([[1, 2], [3, 4]])
+     B = tf.constant([[5, 6], [7, 8]])
+     C = tf.matmul(A, B)
 
-A = tf.constant([[1, 2], [3, 4]])
-B = tf.constant([[5, 6], [7, 8]])
-C = tf.matmul(A, B)
+     print(C)
 
-print(C)
+## Output: 
 
+    tf.Tensor(
+    [[19 22]
+    [43 50]], shape=(2, 2), dtype=int32)
+    
+    
