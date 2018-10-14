@@ -20,3 +20,14 @@ argc：命令行总的参数的个数,即argv中元素的格式。
 
 ## Please work hard, for your final dream.
 ## Don't be disturbed by those girls.
+
+
+# 10.14
+
+## how to use fortran90
+
+gfortran -o hello helloworld.f90
+
+./hello
+
+gfortran -o  应用程序名 代码段名.f90
