@@ -24,10 +24,22 @@ argc：命令行总的参数的个数,即argv中元素的格式。
 
 # 10.14
 
-## how to use fortran90
+## How to use fortran90
 
 gfortran -o hello helloworld.f90
 
 ./hello
 
 gfortran -o  应用程序名 代码段名.f90
+
+## How to use tensorflow
+
+import tensorflow as tf
+tf.enable_eager_execution()
+
+A = tf.constant([[1, 2], [3, 4]])
+B = tf.constant([[5, 6], [7, 8]])
+C = tf.matmul(A, B)
+
+print(C)
+
