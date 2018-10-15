@@ -326,8 +326,16 @@ set nu
 n 
 与/或?一起使用，如果查找的内容不是想要找的关键字，按n或向后（与/联用）或向前（与?联用）继续查找，直到找到为止。
 
+# 10.15 Learn something about ubuntu and tensorflow
 
-# Ubuntu 命令
+## Ubuntu 命令
 类似任务管理器 top
 管理员权限 sudo
 改密码 passwd
+
+## 关于点云covariance and cross-covariance
+ 推荐太一吾鱼水的blog: https://www.cnblogs.com/yhlx125/p/5767519.html
+ 
+## Write the Introduction and related work part of my paper
+## Read the original ICP paper and try to understand the part of convergence domain
+## MMT2019
