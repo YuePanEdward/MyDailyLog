@@ -339,3 +339,7 @@ n
 ## Write the Introduction and related work part of my paper
 ## Read the original ICP paper and try to understand the part of convergence domain
 ## MMT2019
+
+# 10.17 
+About NDT
+太一吾鱼水的blog： https://www.cnblogs.com/yhlx125/p/5749770.html
