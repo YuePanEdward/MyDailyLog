@@ -348,5 +348,11 @@ About NDT
 ### 测试 LeGO-LOAM 算法
 https://github.com/YuePanEdward/LeGO-LOAM
 千万记得装完之后（catkin_make)之后要Source 一下~/catkin_ws/devel/setup.bash
+
 否则会报找不到node源文件的错
+
+可编译运行，但是找不到输入点云，要么是rosbag，要么是tf的错
+
+找时间再看下吧
+
 ### 写 paper
