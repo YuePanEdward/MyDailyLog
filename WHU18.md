@@ -343,3 +343,10 @@ n
 # 10.17 
 About NDT
 太一吾鱼水的blog： https://www.cnblogs.com/yhlx125/p/5749770.html
+
+# 10.18 
+### 测试 LeGO-LOAM 算法
+https://github.com/YuePanEdward/LeGO-LOAM
+千万记得装完之后（catkin_make)之后要Source 一下~/catkin_ws/devel/setup.bash
+否则会报找不到node源文件的错
+### 写 paper
