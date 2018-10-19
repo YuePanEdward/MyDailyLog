@@ -16,10 +16,16 @@ argc：命令行总的参数的个数,即argv中元素的格式。
 
 * argv[2]:指向第二个字符串
 
+# 10.7
+## Do not go gently into that good dream.
+## Rage,rage，against the dying of light.
+
+
 # 10.8
 
-## Please work hard, for your final dream.
-## Don't be disturbed by those girls.
+Please work hard, for your final dream.
+
+Don't be disturbed by those girls.
 
 
 # 10.14
