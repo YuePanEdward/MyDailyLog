@@ -367,3 +367,6 @@ https://github.com/YuePanEdward/LeGO-LOAM
 ### Ptr 定义的时候一定注意加（）
 格式: XXXPtr objectname(new XXX());
 Example:  pcXYZIPtr pointcloud1(new pcXYZI());
+
+### 直方图相似度计算
+https://www.cnblogs.com/xuqq/articles/3997072.html
