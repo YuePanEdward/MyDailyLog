@@ -356,3 +356,8 @@ https://github.com/YuePanEdward/LeGO-LOAM
 找时间再看下吧
 
 ### 写 paper
+
+# 10.19
+### Ptr 定义的时候一定注意加（）
+格式: XXXPtr objectname(new XXX());
+Example:  pcXYZIPtr pointcloud1(new pcXYZI());
