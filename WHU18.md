@@ -12,6 +12,104 @@ argc：命令行总的参数的个数,即argv中元素的格式。
 
 * argv[0]:指向程序的全路径名
 
+4
+​
+5
+# 9.28
+6
+​
+7
+## int main (int argc, char argv[]) 含义
+8
+​
+9
+argc：命令行总的参数的个数,即argv中元素的格式。
+10
+​
+11
+* argv[ ]: 字符串数组,用来存放指向你的字符串参数的指针数组,每一个元素指向一个参数
+12
+​
+13
+* argv[0]:指向程序的全路径名
+14
+​
+15
+* argv[1]:指向在DOS命令行中执行程序名后的第一个字符串。
+16
+​
+17
+* argv[2]:指向第二个字符串
+18
+​
+19
+# 10.7
+20
+## Do not go gently into that good dream.
+21
+## Rage,rage，against the dying of light.
+22
+​
+23
+​
+24
+# 10.8
+25
+​
+26
+Please work hard, for your final dream.
+27
+​
+28
+Don't be disturbed by those girls.
+29
+​
+30
+​
+31
+# 10.14
+32
+​
+33
+## How to use fortran90
+34
+​
+35
+gfortran -o hello helloworld.f90
+36
+​
+37
+./hello
+38
+​
+39
+gfortran -o  应用程序名 代码段名.f90
+40
+​
+41
+## How to use tensorflow
+42
+​
+43
+     import tensorflow as tf
+44
+     tf.enable_eager_execution()
+45
+ 
+46
+     A = tf.constant([[1, 2], [3, 4]])
+47
+     B = tf.constant([[5, 6], [7, 8]])
+48
+     C = tf.matmul(A, B)
+49
+​
+50
+     print(C)
+51
+​
+52
+## Output: 
 * argv[1]:指向在DOS命令行中执行程序名后的第一个字符串。
 
 * argv[2]:指向第二个字符串
@@ -370,3 +468,10 @@ Example:  pcXYZIPtr pointcloud1(new pcXYZI());
 
 ### 直方图相似度计算
 https://www.cnblogs.com/xuqq/articles/3997072.html
+
+# 10.20
+### Don't be so stupid /foolish/idiot anymore
+If(int i=0;i<30;i++){}
+第一个初始条件  第二个执行条件  第三个执行结束操作
+你他妈别再脑子晕的犯这种低级错误了
+
