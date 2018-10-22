@@ -12,39 +12,23 @@ argc：命令行总的参数的个数,即argv中元素的格式。
 
 * argv[0]:指向程序的全路径名
 
-4
-​
-5
+
 # 9.28
-6
-​
-7
+
 ## int main (int argc, char argv[]) 含义
-8
-​
-9
+
 argc：命令行总的参数的个数,即argv中元素的格式。
-10
-​
-11
+
 * argv[ ]: 字符串数组,用来存放指向你的字符串参数的指针数组,每一个元素指向一个参数
-12
-​
-13
+
 * argv[0]:指向程序的全路径名
-14
-​
-15
+
 * argv[1]:指向在DOS命令行中执行程序名后的第一个字符串。
-16
-​
-17
+
 * argv[2]:指向第二个字符串
-18
-​
-19
+
 # 10.7
-20
+
 ## Do not go gently into that good dream.
 21
 ## Rage,rage，against the dying of light.
