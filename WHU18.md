@@ -388,3 +388,6 @@ If(int i=0;i<30;i++){}
 #!/bin/bash
 
 作为开头，记住了
+
+### Fortran基本用法
+http://blog.sina.com.cn/s/blog_6dba2a9e01011nmw.html
