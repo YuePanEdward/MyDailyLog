@@ -391,3 +391,7 @@ If(int i=0;i<30;i++){}
 
 ### Fortran基本用法
 http://blog.sina.com.cn/s/blog_6dba2a9e01011nmw.html
+
+# 10.24
+Today is the programmer's day.
+## Hello World! 
