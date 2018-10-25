@@ -398,3 +398,11 @@ Today is the programmer's day.
 
 # 10.25
 Ultra-Edit 下载
+### 任务
+1.英语 口语，写作
+
+2.fortran 看复习PPT
+
+3.实验跑着，paper写着
+
+4.申请加油，看下EPFL
