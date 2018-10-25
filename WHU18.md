@@ -395,3 +395,6 @@ http://blog.sina.com.cn/s/blog_6dba2a9e01011nmw.html
 # 10.24
 Today is the programmer's day.
 ## Hello World! 
+
+# 10.25
+Ultra-Edit 下载
