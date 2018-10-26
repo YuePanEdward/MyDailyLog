@@ -408,3 +408,13 @@ Ultra-Edit 下载
 4.申请加油，看下EPFL
 
 ### 感觉自己好菜啊。代码老是出Bug
+
+# 10.26
+人生的低谷，也要坚强地走过啊。
+You must walk through all the highs and lows of your life to be a real man.
+
+## IoU （Intersection over Union) 交并比的概念
+
+https://blog.csdn.net/iamoldpan/article/details/78799857
+
+以及IoU threshold 对于IoU的Non-Maximum Suppression非极大抑制
