@@ -488,10 +488,17 @@ Bug2 VTK问题2
 
 迁移OS问题
     
-   include的时候全得用往左的斜杠 / 而不是 \ 。
+   1.include的时候全得用往左的斜杠 / 而不是 \ 。
     
    记好了。否则Linux不认会报错
    
-   还有<Eigen/Dense>也不认，还是改成<Eigen/Eigen>,虽然不知道为什么
+   2.还有<Eigen/Dense>也不认，还是改成<Eigen/Eigen>,虽然不知道为什么
+   
+   3.有时会有typename问题
+   
+     error: need 'typename' before 'std::vector<MarkPoint<T>>::const_iterator' because 'std::vector<MarkPoint<T>>::const_iterator is a depedent scope'
+    
+   解决方法，在前面直接加个typename,详见https://blog.csdn.net/Felaim/article/details/78641635 
+
    
    
