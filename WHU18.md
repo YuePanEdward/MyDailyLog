@@ -418,3 +418,80 @@ You must walk through all the highs and lows of your life to be a real man.
 https://blog.csdn.net/iamoldpan/article/details/78799857
 
 以及IoU threshold 对于IoU的Non-Maximum Suppression非极大抑制
+
+# 10.30 
+将Windows下程序转移至Linux下
+
+## CmakeLists.txt的写法
+   
+    project(GHICP)
+
+    cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+
+    #--- Eigen3
+    find_package(Eigen3 REQUIRED)
+    include_directories(${EIGEN3_INCLUDE_DIRS})
+
+    #--- PCL
+    find_package(PCL 1.6 REQUIRED)
+    include_directories(${PCL_INCLUDE_DIRS})
+    link_directories(${PCL_LIBRARY_DIRS})
+    add_definitions(${PCL_DEFINITIONS})
+
+    add_executable(GHICP           
+	  main.cpp
+	  dataio.cpp
+       fpfh.cpp
+	  BinaryFeatureExtraction.cpp
+	  KM.cpp
+	  principleComponentAnalysis.cpp
+       Registration.cpp
+       StereoBinaryFeature.cpp
+	  )
+
+    target_link_libraries (GHICP ${PCL_LIBRARIES})
+
+## 常见问题
+PCL编译问题  
+Bug1 VTK问题1 要装一个 libpcl.dev
+Bug2 VTK问题2
+      
+      [ 50%] Building CXX object CMakeFiles/pcd_write.dir/pcd_write.cpp.o
+     <command-line>:0:15: warning: missing whitespace after the macro name
+     make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libproj.so', needed by 'pcd_write'.  Stop.
+     CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/pcd_write.dir/all' failed
+     make[1]: *** [CMakeFiles/pcd_write.dir/all] Error 2
+     Makefile:83: recipe for target 'all' failed
+     make: *** [all] Error 2
+     -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+     ** WARNING ** io features related to pcap will be disabled
+     ** WARNING ** io features related to png will be disabled
+     -- The imported target "vtkRenderingPythonTkWidgets" references the file
+     "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+     but this file does not exist.  Possible reasons include:
+     * The file was deleted, renamed, or moved to another location.
+     * An install or uninstall procedure did not complete successfully.
+     * The installation package was faulty and contained
+     " /usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+      but not all the files it references.
+      
+ 解决方法
+ 
+   第一步 
+      
+    sudo apt install libproj-dev
+  
+   第二步
+
+    add the following line to your CMakeLists.txt file:
+    list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4")
+
+迁移OS问题
+    
+   include的时候全得用往左的斜杠 / 而不是 \ 。
+    
+   记好了。否则Linux不认会报错
+   
+   还有<Eigen/Dense>也不认，还是改成<Eigen/Eigen>,虽然不知道为什么
+   
+   
