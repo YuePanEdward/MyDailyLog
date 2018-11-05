@@ -514,5 +514,6 @@ Voxel Cloud Connectivity Segmentation (VCCS) is a recent “superpixel” method
 Over-segmentation 过分割
 Under-segmentation 欠分割
 
+中文版见：https://blog.csdn.net/wi162yyxq/article/details/72808643
 
    
