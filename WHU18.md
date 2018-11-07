@@ -516,4 +516,9 @@ Under-segmentation 欠分割
 
 中文版见：https://blog.csdn.net/wi162yyxq/article/details/72808643
 
-   
+# 11.7
+华测实习
+
+点云特征提取： https://www.cnblogs.com/li-yao7758258/p/6479255.html
+
+提道路标线： 有好多论文可以参考
