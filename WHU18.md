@@ -522,3 +522,28 @@ Under-segmentation 欠分割
 点云特征提取： https://www.cnblogs.com/li-yao7758258/p/6479255.html
 
 提道路标线： 有好多论文可以参考
+
+Professor Ayman Habib面试
+
+# 11.8
+华测实习
+
+## Paper Reading 1
+## Using mobile laser scanning data for automated extraction of road markings, XMU
+流程
+先横断切面，grid里找最低面的最高点作为主点，通过主点连线来找路牙curb
+提取出道路面来
+将道路转化为2D图像
+每个Pixel反射强度加权赋值
+对2D图像用Otsu算法来阈值分割
+对分割好的2值化图像，利用形态学算子closing（dilation+erosion）来去噪并提取边缘。
+
+## USING MOBILE LASER SCANNING DATA FOR FEATURES EXTRACTION OF HIGH ACCURACY DRIVING MAPS, WHU
+流程
+先地面分割，用alpha-shape提路面，对道路延径向切片
+对路面先对强度中值滤波，再计算强度梯度
+然后对强度梯度作K-means聚类，K=2
+聚出来高的那个中心作为生长种子点
+按照四个规则找其他路标点
+按生长点在种子点梯度方向上，该点梯度与种子点梯度几乎相反，该点在一定距离阈值范围内，来生长
+然后就ok了
