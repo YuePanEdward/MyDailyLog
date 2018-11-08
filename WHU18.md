@@ -532,11 +532,18 @@ Professor Ayman Habib面试
 ## Using mobile laser scanning data for automated extraction of road markings, XMU
 流程
 先横断切面，grid里找最低面的最高点作为主点，通过主点连线来找路牙curb
+
 提取出道路面来
+
 将道路转化为2D图像
+
 每个Pixel反射强度加权赋值
+
 对2D图像用Otsu算法来阈值分割
+
 对分割好的2值化图像，利用形态学算子closing（dilation+erosion）来去噪并提取边缘。
+
+形态学算子OpenCV里有，膨胀，腐蚀，开，闭等
 
 ## USING MOBILE LASER SCANNING DATA FOR FEATURES EXTRACTION OF HIGH ACCURACY DRIVING MAPS, WHU
 流程
