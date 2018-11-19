@@ -554,3 +554,18 @@ Professor Ayman Habib面试
 按照四个规则找其他路标点
 按生长点在种子点梯度方向上，该点梯度与种子点梯度几乎相反，该点在一定距离阈值范围内，来生长
 然后就ok了
+
+# 11.19
+Long time no see.
+
+C/C++语言编译过程（特别好）
+
+见 https://www.cnblogs.com/CarpenterLee/p/5994681.html
+
+src 文本文件（高级语言） .c/.cpp/.h   -> 1 preprocessing -> include 合在一起， 宏定义替换 -> 合为 .i 文本文件（高级语言）
+
+-> 2 compile -> 高级语言编译成汇编语言 -> .s 文本文件（汇编语言）
+
+-> 3 assemble -> 汇编语言汇编成机器语言 -> .o 二进制 （机器语言）
+
+-> 4 link -> 将外部静态库lib (.so) 链接在.o 文件上 -> 生成可执行文件 .exe
