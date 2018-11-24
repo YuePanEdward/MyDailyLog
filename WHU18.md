@@ -575,3 +575,9 @@ GNU Compiler Collection
 
 Linux Shell 编程
 https://www.cnblogs.com/yinheyi/p/6648242.html
+
+# 11.24
+Keep fighting!
+
+关于各种环境配置
+https://blog.csdn.net/u012043391/article/details/54972127
