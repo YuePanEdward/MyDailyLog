@@ -585,3 +585,7 @@ https://blog.csdn.net/u012043391/article/details/54972127
 # 12.3
 Linux 正则表达式 及 grep 检索
 https://www.cnblogs.com/hfutwyy/p/3415577.html
+
+# 12.5 
+Please keep fighting.
+Trust in yourself. You are not a kid anymore so that you should take the duty.
