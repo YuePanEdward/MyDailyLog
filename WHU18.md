@@ -589,3 +589,12 @@ https://www.cnblogs.com/hfutwyy/p/3415577.html
 # 12.5 
 Please keep fighting.
 Trust in yourself. You are not a kid anymore so that you should take the duty.
+
+# 12.7
+### LNK Error VS编译过程中出现：无法打开输入文件.lib
+
+原因 ： 项目配置 VC++ 目录 里面有include 包含路径后， 在链接器--输入--附加依赖项 中所填写的 *.lib 文件，即位 输入文件
+
+当include 中对应的lib 文件夹路径中 没有 附加依赖项中的lib 文件，则报此类型错误。 对照相应的文件，将附加依赖项进行修改。
+
+###  
