@@ -597,4 +597,27 @@ Trust in yourself. You are not a kid anymore so that you should take the duty.
 
 当include 中对应的lib 文件夹路径中 没有 附加依赖项中的lib 文件，则报此类型错误。 对照相应的文件，将附加依赖项进行修改。
 
-###  
+###  LNK 2019 无法解析的外部符号  （找不到库文件，添加链接器-》输入-》附加依赖项）
+　　由于经常使用VS的开发环境，所以经常遇到一些错误提示，其中error LNK2019是很常见的一个报错。今天将此错误的原因和常见解决办法根据自己的经验小小总结一下。
+
+　　问题样式：
+
+　　1>SingleView.obj : error LNK2019: 无法解析的外部符号 _imp_wglCreateContext@4，该符号在函数 "protected: int _thiscall CSingleView::CreateViewGLContext(struct HDC__ *)" (?　　　　　　                                       　　　　　              CreateViewGLContext@CSingleView@@IAEHPAUHDC__@@@Z) 中被引用
+
+　　
+
+　　原因：找不到相应的库文件，即xx.lib文件。找不到库文件的原因可能有以下几种：
+
+　　①你使用别人的库，比如说OPenCV的库，OpenGL的库等等第三方库。常见情况是你只是包含了头文件，但是没有引入库文件
+
+　　②你没有使用别人的库，微软自带的一些库也可能出现这样的问题。这时常见情况是链接失败的函数所在的头文件在项目属性的包含目录下，但是相应的库文件却不在项目属性的默认库目录里。比如说常见问题
+
+　　样式里的CreateViewGLContext(struct HDC__ *)函数就是这种情况，此函数在头文件wingdi.h里定义，这个头文件在项目属性中默认的包含目录下，但是对应的库文件opengl32.lib却不在库目录里
+
+　　③你使用了自己做的库文件。这种情况自己没有试过，看过网上的一些说法
+
+ 
+
+　　解决办法：核心是添加相应的库文件即可
+
+　　对于情况①，有两种办法，一种是通常配置一下项目属性就好（在你相应开发环境配置好的前提下），在项目属性的库目录里面添加相应库文件所在的目录，然后在链接器->输入->附加依赖项里加入对应的库文件即可
