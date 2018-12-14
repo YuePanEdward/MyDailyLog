@@ -647,4 +647,39 @@ rand()/(RAND_MAX+1.0)就等于一个0到1之间的小数了,因为rand()最大�
     //data00是指向image第一行第一个元素的指针。
     //data10是指向image第二行第一个元素的指针。
     //data01是指向image第一行第二个元素的指针。
-  
+
+### 最大熵阈值分割
+ https://blog.csdn.net/lz0499/article/details/64164477
+ 
+ https://blog.csdn.net/spw_1201/article/details/53510711
+ 
+### 连通域分析
+ https://blog.csdn.net/icvpr/article/details/10259577
+ 
+### Vector 的 resize 和 reserve 的区别
+
+reserve是容器预留空间，但并不真正创建元素对象，在创建对象之前，不能引用容器内的元素，因此当加入新的元素时，需要用push_back()/insert()函数。
+
+resize是改变容器的大小，并且创建对象，因此，调用这个函数之后，就可以引用容器内的对象了，因此当加入新的元素时，用operator[]操作符，或者用迭代器来引用元素对象。
+
+再者，两个函数的形式是有区别的，reserve函数之后一个参数，即需要预留的容器的空间；resize函数可以有两个参数，第一个参数是容器新的大小，第二个参数是要加入容器中的新元素，如果这个参数被省略，那么就调用元素对象的默认构造函数。下面是这两个函数使用例子
+
+    vector<int> myVec;
+
+    myVec.reserve( 100 );     // 新元素还没有构造,
+
+                          // 此时不能用[]访问元素
+
+    for (int i = 0; i < 100; i++ )
+
+    {
+
+    myVec.push_back( i ); //新元素这时才构造
+
+    }
+
+    myVec.resize( 102 );      // 用元素的默认构造函数构造了两个新的元素
+
+    myVec[100] = 1;           //直接操作新元素
+
+    myVec[101] = 2;
