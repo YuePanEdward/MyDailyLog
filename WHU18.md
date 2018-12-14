@@ -626,4 +626,10 @@ Trust in yourself. You are not a kid anymore so that you should take the duty.
  # 12.13
 C++ 类内成员函数调该类的另一成员函数时是不用 实例化再调用的
 
+ # 12.14
 
+stdlib.h头文件中有宏#define RAND_MAX 0x7fff
+
+rand()产生一个0到0x7ffff即0到32767之间的随机数
+
+rand()/(RAND_MAX+1.0)就等于一个0到1之间的小数了,因为rand()最大是32767最小是0,再除以32768就是一个0到1之间的小数(不能等于1),再乘以10就是一个0到10之间的数了(不等于10).最后再加1,就成了一个求1到10之间随机数的式子了.
