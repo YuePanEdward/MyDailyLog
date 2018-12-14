@@ -683,3 +683,12 @@ resize是改变容器的大小，并且创建对象，因此，调用这个函�
     myVec[100] = 1;           //直接操作新元素
 
     myVec[101] = 2;
+
+### LAS/PCD File 读取
+
+LAS 注意读的时候读到float 的PCL点里 如果坐标太大（如：X 543349.22 Y 3378111.03）会有精度损失，所以要在其上做一个平移
+las 读intensity 什么的还是很方便的
+
+PCD 注意的是 它的文件头是啥样的
+要按PointXYZI 读则一定要按 X Y Z Intensity 这种存储格式，否则识别不出Intensity 来，而且pcd还很可能被存成binary 而不是 ASCII 型式的
+
