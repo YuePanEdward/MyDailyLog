@@ -692,14 +692,16 @@ las 读intensity 什么的还是很方便的
 PCD 注意的是 它的文件头是啥样的
 要按PointXYZI 读则一定要按 X Y Z Intensity 这种存储格式，否则识别不出Intensity 来，而且pcd还很可能被存成binary 而不是 ASCII 型式的
 
-### # .PCD v0.7 - Point Cloud Data file format
-VERSION 0.7
-FIELDS Intensity x y z _
-SIZE 4 4 4 4 1
-TYPE F F F F U
-COUNT 1 1 1 1 4
-WIDTH 85
-HEIGHT 1
-VIEWPOINT 0 0 0 1 0 0 0
-POINTS 85
-DATA binary
+### 
+     # .PCD v0.7 - Point Cloud Data file format
+     VERSION 0.7
+     FIELDS Intensity x y z _
+     SIZE 4 4 4 4 1
+     TYPE F F F F U
+     COUNT 1 1 1 1 4
+     WIDTH 85
+     HEIGHT 1
+     VIEWPOINT 0 0 0 1 0 0 0
+     POINTS 85
+     DATA binary
+     
