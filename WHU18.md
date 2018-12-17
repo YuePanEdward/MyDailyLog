@@ -705,3 +705,17 @@ PCD 注意的是 它的文件头是啥样的
      POINTS 85
      DATA binary
      
+# 12.17
+### OpenCV 访问像素
+
+             for (int i = 0; i < Src.rows; i++)
+	     {
+			for (int j = 0; j < Src.cols; j++)
+			 {
+					if (Src.at<uchar>(i, j) < 1)
+					{
+						PointLabel.at<uchar>(i, j) = 3;    
+					}
+			}
+		}
+		// XXX.at<uchar>(i,j) 这样访问 XXX图像的i行，j列像素
