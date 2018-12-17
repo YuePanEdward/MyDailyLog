@@ -719,3 +719,6 @@ PCD 注意的是 它的文件头是啥样的
 			}
 		}
 		// XXX.at<uchar>(i,j) 这样访问 XXX图像的i行，j列像素
+
+### 图割 Snake 算法
+https://www.cnblogs.com/lcchuguo/p/4046372.html
