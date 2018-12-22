@@ -743,3 +743,31 @@ https://blog.csdn.net/abcsunl/article/details/60959914
 自适应阈值分割
 
 https://blog.csdn.net/zangle260/article/details/52980060
+
+### C++ 学习
+好好看 C++ Preimer
+
+容器 
+vector,map等
+
+模板类 好好学
+
+还有一个很关键的迭代器，现在会用了吧
+
+这样写循环
+         
+	 Vector <type> myvector;
+         //...push_back...
+         for( auto iter=myvector.begin(); iter!= myvector.end(); iter++)
+	 {
+	   //...
+	 }
+	 
+
+### 点云分割介绍
+https://www.cnblogs.com/ironstark/p/5027269.html
+
+### 各种算法，很好的网站 （谢谢宇哥）
+凸包 Convex Hull Generation
+
+http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
