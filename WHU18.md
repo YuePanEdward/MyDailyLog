@@ -734,3 +734,12 @@ https://blog.csdn.net/wishchin/article/details/11900961
 Lib for dxf IO
 
 https://blog.csdn.net/huanghxyz/article/details/73655608
+
+### OpenCV 相关
+大津法 Otsu 类间方差最大
+
+https://blog.csdn.net/abcsunl/article/details/60959914
+
+自适应阈值分割
+
+https://blog.csdn.net/zangle260/article/details/52980060
