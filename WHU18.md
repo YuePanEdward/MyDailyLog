@@ -771,3 +771,31 @@ https://www.cnblogs.com/ironstark/p/5027269.html
 凸包 Convex Hull Generation
 
 http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
+
+### DXF 存储与读取
+开源包 dxflib,去配置一下
+
+https://www.ribbonsoft.com/en/dxflib-downloads
+
+
+# 12.23
+
+中值滤波介绍 Median Filter
+
+https://blog.csdn.net/whuhan2013/article/details/53859930
+
+https://www.cnblogs.com/german-iris/p/4817783.html
+
+主要用于消除椒盐噪声(Salt and Pepper Noise)
+
+自适应中值滤波
+
+一种改进的中值滤波策略 
+
+中值滤波效果依赖于滤波窗口的大小， 太大会使边缘模糊， 太小了则去噪效果不佳。 因为噪声点和边缘点同样是灰度变化较为剧烈的像素， 普通中值滤波在改变噪声点灰度值时，会一定程度地改变边缘像素灰度值。但是噪声点几乎都是邻域像素的极值，而边缘往往不是，因此可以利用这个特性来限制中值滤波。
+
+具体的改进方法如下： 逐行扫描图像， 当处理每一个像素时， 判断该像素是否是滤披窗口覆盖下邻域像素的极大或者极小值。 如果是， 则采用正常的中值滤波处理该像素：如果不是， 则不予处理。 在实践中这种方法能够非常有效地去除突发噪声点， 尤其是椒盐噪声， 且几乎不影响边缘。 
+由于算法可以根据局部邻域的具体情况而自行选择执行不同的操作， 因此改进的中值滤波也称为自适应中值滤波．
+
+自适应中值滤波对边缘进行了更好的保留。
+
