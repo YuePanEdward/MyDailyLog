@@ -842,3 +842,8 @@ https://blog.csdn.net/abandon_first/article/details/76462860
 Molodensky系统下 定义了正常高系统，正常重力。从地表延正常重力方向量取正常高所得端点连城的闭合曲面即为似大地水准面
 
 大地高由两部分组成 地形高（正高或正常高，也就是所谓的海拔高）加上 大地水准面高（大地水准面差距和高程异常）
+
+## CGAL 库  很不错啊
+## Concave Hull 凹包  可以用alpha-shape 算法提边缘
+## Convex Hull 凸包  这个就多了
+http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
