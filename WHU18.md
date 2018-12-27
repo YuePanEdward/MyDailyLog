@@ -854,5 +854,10 @@ https://blog.csdn.net/super_lee2013/article/details/49684715
 https://gis.stackexchange.com/questions/1200/what-are-definition-algorithms-and-practical-solutions-for-concave-hull
 
 https://doc.cgal.org/latest/Alpha_shapes_3/group__PkgAlphaShapes3.html
+
+https://www.cnblogs.com/li-yao7758258/p/6497446.html PCL上就有concave hull 啊
+
+https://en.wikipedia.org/wiki/Alpha_shape PCL的alpha-shape
+
 ## Convex Hull 凸包  这个就多了
 http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
