@@ -844,6 +844,15 @@ Molodensky系统下 定义了正常高系统，正常重力。从地表延正常
 大地高由两部分组成 地形高（正高或正常高，也就是所谓的海拔高）加上 大地水准面高（大地水准面差距和高程异常）
 
 ## CGAL 库  很不错啊
+
+https://blog.csdn.net/u013094443/article/details/51106015
+
+https://blog.csdn.net/super_lee2013/article/details/49684715
+
+
 ## Concave Hull 凹包  可以用alpha-shape 算法提边缘
+https://gis.stackexchange.com/questions/1200/what-are-definition-algorithms-and-practical-solutions-for-concave-hull
+
+https://doc.cgal.org/latest/Alpha_shapes_3/group__PkgAlphaShapes3.html
 ## Convex Hull 凸包  这个就多了
 http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
