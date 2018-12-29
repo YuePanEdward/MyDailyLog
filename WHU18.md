@@ -861,3 +861,7 @@ https://en.wikipedia.org/wiki/Alpha_shape PCL的alpha-shape
 
 ## Convex Hull 凸包  这个就多了
 http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
+
+# 12.29
+## KMeans C++实现
+https://blog.csdn.net/lavorange/article/details/28854929
