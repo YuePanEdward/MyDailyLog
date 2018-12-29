@@ -871,3 +871,5 @@ https://www.cnblogs.com/mypsq/p/4348565.html
 
 ## C++ 容器 map 映射，一个key,一个value ,类似于一个Hash表
 https://blog.csdn.net/zhuochuyu7096/article/details/82817197
+
+## 要学会直接看API啊，不要懒
