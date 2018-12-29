@@ -865,3 +865,6 @@ http://www.csie.ntnu.edu.tw/~u91029/ConvexHull.html
 # 12.29
 ## KMeans C++实现
 https://blog.csdn.net/lavorange/article/details/28854929
+
+## C++ 容器 set 集合，类似于vector，但里面的元素不重复
+https://www.cnblogs.com/mypsq/p/4348565.html
