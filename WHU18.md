@@ -868,3 +868,6 @@ https://blog.csdn.net/lavorange/article/details/28854929
 
 ## C++ 容器 set 集合，类似于vector，但里面的元素不重复
 https://www.cnblogs.com/mypsq/p/4348565.html
+
+## C++ 容器 map 映射，一个key,一个value ,类似于一个Hash表
+https://blog.csdn.net/zhuochuyu7096/article/details/82817197
