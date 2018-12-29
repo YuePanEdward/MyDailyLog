@@ -878,3 +878,13 @@ https://blog.csdn.net/zhuochuyu7096/article/details/82817197
 比如说 #include<pcl/io/pcl_io.h> 
 
 这里就是要包含到pcl目录的上一层，这里是pcl1-8，否则就找不到
+
+## 用预处理器 或 #pragma 来解决一些由于版本不同造成的报错
+见https://blog.csdn.net/Apollon_krj/article/details/68923683
+
+## 最大熵以及HHM隐含马尔可夫模型
+https://www.cnblogs.com/skyme/p/4651331.html
+
+## 关于EM算法
+看看那个知乎答案，自己多推公式
+
