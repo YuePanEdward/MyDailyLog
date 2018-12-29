@@ -873,3 +873,8 @@ https://www.cnblogs.com/mypsq/p/4348565.html
 https://blog.csdn.net/zhuochuyu7096/article/details/82817197
 
 ## 要学会直接看API啊，不要懒
+
+## 包含路径 路径名一定要对啊 include
+比如说 #include<pcl/io/pcl_io.h> 
+
+这里就是要包含到pcl目录的上一层，这里是pcl1-8，否则就找不到
