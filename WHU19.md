@@ -17,3 +17,7 @@ https://blog.csdn.net/u013057085/article/details/50741114
 4.PCL ply格式读取
 
 https://www.cnblogs.com/BambooEatPanda/p/7551825.html
+
+5.全局宏定义max,min与PCL模板定义max,min冲突，解决方案
+
+https://blog.csdn.net/zhuangshn/article/details/5537499
