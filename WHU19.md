@@ -9,3 +9,11 @@ Please Work hard.
 2.STL检查对于PCL版本不兼容问题，还有预编译器的问题
 
 https://blog.csdn.net/qing101hua/article/details/70739391
+
+3.stdafx.h 的问题 
+
+https://blog.csdn.net/u013057085/article/details/50741114
+
+4.PCL ply格式读取
+
+https://www.cnblogs.com/BambooEatPanda/p/7551825.html
