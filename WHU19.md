@@ -41,3 +41,12 @@ http://blog.chinaunix.net/uid-26808060-id-3345409.html
 这是为了避免大工程里cpp文件多次include 该头文件时不会出现 重引用的问题
 
 但这里的取名PCA_H也是很讲究的，别和OpenCV 库里的PCA重了，重了之后自然会报一堆错，什么 InputArray没有定义啊，之类的
+
+## 傻逼富强打印店
+经常有傻逼病毒，autorun什么的，就是会把你的文件夹隐藏，再生成同名的exe.或快捷方式文件
+
+解决方法如下
+
+https://www.cnblogs.com/tlnshuju/p/7193740.html
+
+再也不去那家傻逼打印店了
