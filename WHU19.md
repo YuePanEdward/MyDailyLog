@@ -57,3 +57,5 @@ https://www.cnblogs.com/tlnshuju/p/7193740.html
 https://blog.csdn.net/p5deyt322jacs/article/details/80745723 AI,云计算
 
 博学而笃志，切问而近思啊孩子
+
+https://blog.csdn.net/xx1129244705/article/details/78036713 进程，并行，多进程
