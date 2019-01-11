@@ -52,3 +52,6 @@ https://www.cnblogs.com/tlnshuju/p/7193740.html
 再也不去那家傻逼打印店了
 
 ### 一般运行到一半不报错闪退都是因为 数组或vector下标越界，或者没有给它安排空间，没有size，resize等等
+
+# 1.11
+https://blog.csdn.net/p5deyt322jacs/article/details/80745723 AI,云计算
