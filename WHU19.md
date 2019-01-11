@@ -55,3 +55,5 @@ https://www.cnblogs.com/tlnshuju/p/7193740.html
 
 # 1.11
 https://blog.csdn.net/p5deyt322jacs/article/details/80745723 AI,云计算
+
+博学而笃志，切问而近思啊孩子
