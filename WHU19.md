@@ -68,3 +68,8 @@ This
 //用法
 
 this-> 某函数();
+
+# 1.13 
+链表使用
+
+https://blog.csdn.net/u011411195/article/details/51150102
