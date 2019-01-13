@@ -99,3 +99,9 @@ int main ()
 
   return 0;
 }
+
+Output:
+
+foo contains: 200 200 200 200 200 
+
+bar contains: 100 100 100 
