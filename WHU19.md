@@ -73,3 +73,29 @@ this-> 某函数();
 链表使用
 
 https://blog.csdn.net/u011411195/article/details/51150102
+
+Vector Swap 同类型向量交换
+
+  // swap vectors
+   #include <iostream>
+   #include <vector>
+
+int main ()
+{
+  std::vector<int> foo (3,100);   // three ints with a value of 100
+  std::vector<int> bar (5,200);   // five ints with a value of 200
+
+  foo.swap(bar);
+
+  std::cout << "foo contains:";
+  for (unsigned i=0; i<foo.size(); i++)
+    std::cout << ' ' << foo[i];
+  std::cout << '\n';
+
+  std::cout << "bar contains:";
+  for (unsigned i=0; i<bar.size(); i++)
+    std::cout << ' ' << bar[i];
+  std::cout << '\n';
+
+  return 0;
+}
