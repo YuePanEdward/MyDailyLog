@@ -110,3 +110,19 @@ bar contains: 100 100 100
 很重要啊孩子
 
 https://blog.csdn.net/Augusdi/article/details/7493884
+
+# 1.14
+## AutoCAD重安装，之前手动卸载注册表没有删好
+
+删除方法如下 2017/2018
+
+https://jingyan.baidu.com/article/ea24bc39c54a73da62b3313b.html
+
+## AutoDesk Recap点云显示测试，很炫酷
+读取有问题
+
+配准功能
+
+http://help.autodesk.com/view/RECAP/2017/ENU/?guid=GUID-F863ED13-20A7-4873-AE42-2AAFDDF02295
+
+
