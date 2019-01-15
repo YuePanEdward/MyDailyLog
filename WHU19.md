@@ -131,3 +131,11 @@ https://blog.csdn.net/roger_ranger/article/details/78279205
 
 ## AutoCad DXF 颜色
 https://blog.csdn.net/wangjiwei2010/article/details/1245974
+
+# 1.15
+
+## C++ Pair 用法
+https://www.cnblogs.com/lvchaoshun/p/7769003.html
+## C++ Vector Insert 用法
+https://www.cnblogs.com/cappuccino/p/3794698.html
+
