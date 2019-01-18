@@ -139,3 +139,5 @@ https://www.cnblogs.com/lvchaoshun/p/7769003.html
 ## C++ Vector Insert 用法
 https://www.cnblogs.com/cappuccino/p/3794698.html
 
+# 1.19 
+求你别把那丑陋的代码拿出去秀了，真的写得恶心
