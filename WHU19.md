@@ -145,3 +145,15 @@ https://www.cnblogs.com/cappuccino/p/3794698.html
 如何编译静态库lib 并链接使用
 
 https://blog.csdn.net/u010335911/article/details/23474919?utm_source=blogxgwz3
+
+### Cmake 出来的VS项目 会自动生成 三个Project
+
+https://blog.csdn.net/sidely/article/details/52537488
+
+一般由CMAKE构建的解决方案（Solution）中包含三工程（Project），分别是ALL_BUILD、ZERO_CHECK、INSTALL
+
+ALL_BUILD只要编译这个工程，所有的工程均会编译；
+
+ZERO_CHECK监视CMakeLists.txt文件的变化，一旦发生变化，它会告诉编译器重新构建整个工程环境。
+
+INSTALL:将工程编译后生成的dll和exe等安装到指定目录中，具体安装位置和安装内容详见该工程的Build Event->Post-Build Event->Command Line。
