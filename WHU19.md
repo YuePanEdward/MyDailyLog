@@ -141,3 +141,7 @@ https://www.cnblogs.com/cappuccino/p/3794698.html
 
 # 1.19 
 求你别把那丑陋的代码拿出去秀了，真的写得恶心
+
+如何编译静态库lib 并链接使用
+
+https://blog.csdn.net/u010335911/article/details/23474919?utm_source=blogxgwz3
