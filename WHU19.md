@@ -180,6 +180,8 @@ assert() 函数的使用
 
 https://www.cnblogs.com/ggzss/archive/2011/08/18/2145017.html
 
+### C++ 里的结构体其实就是一种简易的类，不仅可以有成员变量，也可以有成员函数 
+
 ### 联合体 
     Union markings
     {
@@ -188,4 +190,18 @@ https://www.cnblogs.com/ggzss/archive/2011/08/18/2145017.html
        bool pass;
     };
 
-共用存储空间
+共用存储空间, 成绩只能有一种
+
+### 枚举 
+enum 
+
+### 枚举类（强类型枚举）
+enum class Type {General, Light, Medium, Heavy}
+
+同 enum Type {General, Light, Medium, Heavy}  这种C继承来的简单枚举，默认类型为int
+
+调用枚举对象时要用 Type::General 作用域限制
+
+enum class Type: char {General, Light, Medium, Heavy}  枚举常量的类型可自定
+
+:: 主要是控制作用域，在 C++里面
