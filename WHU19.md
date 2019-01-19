@@ -175,3 +175,7 @@ fatal error C1189: #error : The C++ Standard Library forbids macroizing keywords
 复制构造函数
 
 用已有的对象来生成一个新对象
+
+assert() 函数的使用
+
+https://www.cnblogs.com/ggzss/archive/2011/08/18/2145017.html
