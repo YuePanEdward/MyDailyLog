@@ -158,9 +158,16 @@ ZERO_CHECK监视CMakeLists.txt文件的变化，一旦发生变化，它会告�
 
 INSTALL:将工程编译后生成的dll和exe等安装到指定目录中，具体安装位置和安装内容详见该工程的Build Event->Post-Build Event->Command Line。
 
+ALL_BUILD 生成不了，导致别的工程也不能生成
+
+https://blog.csdn.net/moonwindhui/article/details/45130801
+
+将所要运行项目设成启动项 即可
+
 ### 不同版本的VS项目可能造成的问题
 
 fatal error C1189: #error : The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
 最近在使用 VS2015 编译以前用VS2008的项目的时候，提示错误：fatal error C1189: #error :  The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
 
 解决方法：在项目的“预处理器定义”中增加 "_XKEYCHECK_H"
+
