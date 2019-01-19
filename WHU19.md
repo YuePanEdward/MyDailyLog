@@ -171,3 +171,7 @@ fatal error C1189: #error : The C++ Standard Library forbids macroizing keywords
 
 解决方法：在项目的“预处理器定义”中增加 "_XKEYCHECK_H"
 
+## C++ 学习
+复制构造函数
+
+用已有的对象来生成一个新对象
