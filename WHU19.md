@@ -157,3 +157,10 @@ ALL_BUILD只要编译这个工程，所有的工程均会编译；
 ZERO_CHECK监视CMakeLists.txt文件的变化，一旦发生变化，它会告诉编译器重新构建整个工程环境。
 
 INSTALL:将工程编译后生成的dll和exe等安装到指定目录中，具体安装位置和安装内容详见该工程的Build Event->Post-Build Event->Command Line。
+
+### 不同版本的VS项目可能造成的问题
+
+fatal error C1189: #error : The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
+最近在使用 VS2015 编译以前用VS2008的项目的时候，提示错误：fatal error C1189: #error :  The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
+
+解决方法：在项目的“预处理器定义”中增加 "_XKEYCHECK_H"
