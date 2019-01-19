@@ -179,3 +179,13 @@ fatal error C1189: #error : The C++ Standard Library forbids macroizing keywords
 assert() 函数的使用
 
 https://www.cnblogs.com/ggzss/archive/2011/08/18/2145017.html
+
+### 联合体 
+    Union markings
+    {
+       char grade;
+       int score;
+       bool pass;
+    };
+
+共用存储空间
