@@ -205,3 +205,10 @@ enum class Type {General, Light, Medium, Heavy}
 enum class Type: char {General, Light, Medium, Heavy}  枚举常量的类型可自定
 
 :: 主要是控制作用域，在 C++里面
+
+# 1.21
+## 配准
+### NDT
+https://www.cnblogs.com/yhlx125/p/5749770.html
+### G-ICP
+https://www.cnblogs.com/yhlx125/p/5709157.html
