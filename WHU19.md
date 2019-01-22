@@ -212,3 +212,9 @@ enum class Type: char {General, Light, Medium, Heavy}  枚举常量的类型可�
 https://www.cnblogs.com/yhlx125/p/5749770.html
 ### G-ICP
 https://www.cnblogs.com/yhlx125/p/5709157.html
+
+# 1.22
+## 编译时间过长的解决
+https://blog.csdn.net/ugg/article/details/1489765
+## 用Cmake编译的步骤
+Configure(VS 12 2013) ->  Generate  -> VS Project build
