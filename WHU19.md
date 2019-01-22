@@ -216,7 +216,10 @@ https://www.cnblogs.com/yhlx125/p/5709157.html
 # 1.22
 ## 编译时间过长的解决
 https://blog.csdn.net/ugg/article/details/1489765
+
+https://blog.csdn.net/amusi1994/article/details/53679140
 ## 用Cmake编译的步骤
 Configure(VS 12 2013) ->  Generate  -> VS Project build
 ## #pragma Once vs #ifndef
 https://blog.csdn.net/reasonyuanrobot/article/details/83858319
+
