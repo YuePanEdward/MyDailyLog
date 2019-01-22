@@ -218,3 +218,5 @@ https://www.cnblogs.com/yhlx125/p/5709157.html
 https://blog.csdn.net/ugg/article/details/1489765
 ## 用Cmake编译的步骤
 Configure(VS 12 2013) ->  Generate  -> VS Project build
+## #pragma Once vs #ifndef
+https://blog.csdn.net/reasonyuanrobot/article/details/83858319
