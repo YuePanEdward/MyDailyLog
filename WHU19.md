@@ -223,3 +223,8 @@ Configure(VS 12 2013) ->  Generate  -> VS Project build
 ## #pragma Once vs #ifndef
 https://blog.csdn.net/reasonyuanrobot/article/details/83858319
 
+# 1.23 
+## PDAL 库编译 失败
+
+## CC插件
+https://www.jianshu.com/p/e4b9d4c9360f
