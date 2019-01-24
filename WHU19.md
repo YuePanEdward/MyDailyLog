@@ -237,4 +237,7 @@ https://blog.csdn.net/historycomputer/article/details/59121420
 看看自己的word文档
 
 如何基于 QDummy_PLUGIN制作自己的PLUGIN
+
+## 宇哥的Blog PCL+QT+VS配置
 https://blog.csdn.net/qq_34719188/article/details/78961695
+
