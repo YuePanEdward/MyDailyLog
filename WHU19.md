@@ -232,3 +232,9 @@ https://www.jianshu.com/p/e4b9d4c9360f
 # 1.24
 ## XXXconfig.cmake文件
 https://blog.csdn.net/historycomputer/article/details/59121420
+
+## CC 插件 2次开发
+看看自己的word文档
+
+如何基于 QDummy_PLUGIN制作自己的PLUGIN
+https://blog.csdn.net/qq_34719188/article/details/78961695
