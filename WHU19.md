@@ -228,3 +228,7 @@ https://blog.csdn.net/reasonyuanrobot/article/details/83858319
 
 ## CC插件
 https://www.jianshu.com/p/e4b9d4c9360f
+
+# 1.24
+## XXXconfig.cmake文件
+https://blog.csdn.net/historycomputer/article/details/59121420
