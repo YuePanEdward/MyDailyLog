@@ -241,3 +241,9 @@ https://blog.csdn.net/historycomputer/article/details/59121420
 ## 宇哥的Blog PCL+QT+VS配置
 https://blog.csdn.net/qq_34719188/article/details/78961695
 
+## Qmake生成 pro文件
+使用qmake构建pro文件
+在终端进入到你的插件的qSAF目录，执行：
+
+qmake -project -r CMakeLists.txt
+就会在qSAF目录下构建一个项目的pro文件。
