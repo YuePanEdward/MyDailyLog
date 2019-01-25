@@ -247,3 +247,8 @@ https://blog.csdn.net/qq_34719188/article/details/78961695
 
 qmake -project -r CMakeLists.txt
 就会在qSAF目录下构建一个项目的pro文件。
+
+# 1.25 
+## 毕业设计思路确定
+
+## 看看图优化和Vorining图分块
