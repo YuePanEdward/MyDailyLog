@@ -252,3 +252,9 @@ qmake -project -r CMakeLists.txt
 ## 毕业设计思路确定
 
 ## 看看图优化和Vorining图分块
+
+# 1.27
+## 曾经遇到过的问题， PCL 版本问题， 某个函数不再用了 deprecated 
+https://blog.csdn.net/wokaowokaowokao12345/article/details/51287011
+
+方法，属性-> C/C++ 里面 ，把SDL检查改成否即可
