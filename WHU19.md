@@ -296,3 +296,6 @@ c)	低重叠度问题
 	数据项和平滑项之间权值的自适应确定
 
 ### 8)	先找梁福逊要城区TLS和ALS做实验，测试GICP
+
+## 刷Kaggle
+https://blog.csdn.net/gh13uy2ql0N5/article/details/78293745
