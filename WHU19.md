@@ -299,3 +299,6 @@ c)	低重叠度问题
 
 ## 刷Kaggle
 https://blog.csdn.net/gh13uy2ql0N5/article/details/78293745
+
+## 微分几何，流形
+https://www.jianshu.com/p/0950e71274fd
