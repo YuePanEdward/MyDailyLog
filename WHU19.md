@@ -302,3 +302,6 @@ https://blog.csdn.net/gh13uy2ql0N5/article/details/78293745
 
 ## 微分几何，流形
 https://www.jianshu.com/p/0950e71274fd
+
+## GICP blog
+https://blog.csdn.net/xuyi1218037/article/details/84313750
