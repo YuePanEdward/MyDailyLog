@@ -307,7 +307,34 @@ https://www.jianshu.com/p/0950e71274fd
 ## GICP blog
 https://blog.csdn.net/xuyi1218037/article/details/84313750
 
+## point-to-point , point-to-plane, point-to-line and plane-to-plane (GICP)
+这些ICP变种都是只改了已知对应关系估计最优变换的部分，把优化函数残差和的残差之定义进行了改动
+
+而对于求对应关系，为了效率，要使用KD-tree，延用了找最近点的方式
+
+优化过程涉及非线性优化,有严密解也有数值解
+
+### Closed Form
+1.SVD
+
+2.Unit Quaternions单位四元数
+
+3.The ICP error function minimization via orthonormal matrices
+
+4.Dual Quaternions
+
+5.共轭梯度法 conjugate gradient
+
+### 数值解法
+1.LM算法 （Levenberg-Marquardt algorithm）
+
+2.Jerbić, B., et al. (2015). "Robot Assisted 3D Point Cloud Object Registration." Procedia Engineering 100: 847-852.
+
+3.点到面 线性最小二乘法
+•Low, K.-L. (2004). "Linear Least-Squares Optimization for Point-to-Plane ICP Surface Registration."
+
 ## 非线性优化之 共轭梯度法
 共轭梯度法（Conjugate Gradient）是介于最速下降法与牛顿法之间的一个方法，它仅需利用一阶导数信息，但克服了最速下降法收敛慢的缺点，又避免了牛顿法需要存储和计算Hesse矩阵并求逆的缺点，共轭梯度法不仅是解决大型线性方程组最有用的方法之一，也是解大型非线性最优化最有效的算法之一。 在各种优化算法中，共轭梯度法是非常重要的一种。其优点是所需存储量小，具有步收敛性，稳定性高，而且不需要任何外来参数。
 
 https://blog.csdn.net/lusongno1/article/details/78550803
+
