@@ -300,10 +300,14 @@ c)	低重叠度问题
 ## 刷Kaggle
 https://blog.csdn.net/gh13uy2ql0N5/article/details/78293745
 
+# 2.16
 ## 微分几何，流形
 https://www.jianshu.com/p/0950e71274fd
 
 ## GICP blog
 https://blog.csdn.net/xuyi1218037/article/details/84313750
 
+## 非线性优化之 共轭梯度法
 共轭梯度法（Conjugate Gradient）是介于最速下降法与牛顿法之间的一个方法，它仅需利用一阶导数信息，但克服了最速下降法收敛慢的缺点，又避免了牛顿法需要存储和计算Hesse矩阵并求逆的缺点，共轭梯度法不仅是解决大型线性方程组最有用的方法之一，也是解大型非线性最优化最有效的算法之一。 在各种优化算法中，共轭梯度法是非常重要的一种。其优点是所需存储量小，具有步收敛性，稳定性高，而且不需要任何外来参数。
+
+https://blog.csdn.net/lusongno1/article/details/78550803
