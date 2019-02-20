@@ -355,3 +355,6 @@ https://blog.csdn.net/firo_baidu/article/details/6843554
 # 2.21 
 ## OpenMP 并行计算
 https://blog.csdn.net/eric_e/article/details/79156504
+
+## 维诺图与德洛尼三角网
+https://blog.csdn.net/kevin_darkelf/article/details/81455687
