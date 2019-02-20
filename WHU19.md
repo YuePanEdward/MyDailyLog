@@ -346,6 +346,12 @@ http://blog.sina.com.cn/s/blog_7445c2940102x3x4.html#commentComment
 ## g2o+VS13 配置
 https://blog.csdn.net/xiaopihai1993/article/details/76644656
 
+https://blog.csdn.net/aptx704610875/article/details/51245143
+
 ## 联系学车，毕设开题
 ## YAML 配置文件 C++
 https://blog.csdn.net/firo_baidu/article/details/6843554
+
+# 2.21 
+## OpenMP 并行计算
+https://blog.csdn.net/eric_e/article/details/79156504
