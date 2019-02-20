@@ -345,3 +345,7 @@ http://blog.sina.com.cn/s/blog_7445c2940102x3x4.html#commentComment
 # 2.20
 ## g2o+VS13 配置
 https://blog.csdn.net/xiaopihai1993/article/details/76644656
+
+## 联系学车，毕设开题
+## YAML 配置文件 C++
+https://blog.csdn.net/firo_baidu/article/details/6843554
