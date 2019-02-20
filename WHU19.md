@@ -341,3 +341,7 @@ https://blog.csdn.net/lusongno1/article/details/78550803
 # 2.18
 ## 非线性优化 好帖
 http://blog.sina.com.cn/s/blog_7445c2940102x3x4.html#commentComment
+
+# 2.20
+## g2o+VS13 配置
+https://blog.csdn.net/xiaopihai1993/article/details/76644656
