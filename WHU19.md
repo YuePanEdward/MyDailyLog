@@ -422,3 +422,6 @@ https://blog.csdn.net/caoshangpa/article/details/53389234
  ## 见上述网址
 
 代码规范化要注意啊
+
+天行健，君子以自强不息。
+地势坤，君子以厚德载物。
