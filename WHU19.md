@@ -438,3 +438,9 @@ https://blog.csdn.net/veghlreywg/article/details/80400382
 
 ## 嵌套vector的初始化
 vector< vector< int > > AIcards( 4, vector< int >( 13 ) );  4*13 的2维vector
+
+# 3.18
+## 智能指针的初始化一定要注意啊
+https://blog.csdn.net/Sub_lele/article/details/75137252
+
+XXXPtr yyy (new XXX());
