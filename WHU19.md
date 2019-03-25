@@ -444,3 +444,18 @@ vector< vector< int > > AIcards( 4, vector< int >( 13 ) );  4*13 的2维vector
 https://blog.csdn.net/Sub_lele/article/details/75137252
 
 XXXPtr yyy (new XXX());
+
+# 3.25
+## 之前的dll问题，排查
+zlib.dll的问题
+
+之后环境变量PATH一定要注意，别瞎配
+
+打包的时候连通这些dll一起，放在同一目录下
+
+你电脑上可以运行是因为环境变量里已经有了
+
+如果不报缺少某dll的错，而是说无法运行，那就要注意还有可能是dll文件名字一样，但内容不同或版本不同，就像zlib.dll
+
+## 使用GDAL的时候一个LNK2001的链接错误
+https://blog.csdn.net/mandy_limin/article/details/52882843
