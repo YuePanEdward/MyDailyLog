@@ -463,3 +463,8 @@ zlib.dll的问题
 
 ## 使用GDAL的时候一个LNK2001的链接错误
 https://blog.csdn.net/mandy_limin/article/details/52882843
+
+# .hpp 文件
+https://www.cnblogs.com/-Mr-y/p/7985537.html
+
+还有要注意模板类的声明和定义要在同一个文件内，否则会报LNK2001
