@@ -418,6 +418,10 @@ https://blog.csdn.net/caoshangpa/article/details/53389234
 4. 三种方法：
 
 （1）模板的声明和定义都放置在同一个.h文件中（最好）：
+ 
+（2）hpp文件
+
+（3）也可以在main里直接include xxx.cpp
 
  ## 见上述网址
 
