@@ -468,3 +468,43 @@ https://blog.csdn.net/mandy_limin/article/details/52882843
 https://www.cnblogs.com/-Mr-y/p/7985537.html
 
 还有要注意模板类的声明和定义要在同一个文件内，否则会报LNK2001
+
+
+# 4.12 
+刷leetcode啊伙计
+
+今日leetcode 
+
+感觉自己弱的像只咸鱼+菜鸡
+
+## 2.ADD TWO NUMBERS
+
+链表加法，别想复杂了，直接对位做加法运算，别先转成int在做，那样很容易overflow过2^32次方的
+
+就用正常加法的思路，看有没有进位，进位只有0和1的
+
+还有就是注意C++里指针的定义,PCL里也一样，都是 XXX*  xxx =new (XXX), pcl 人家也是 XXXPtr xxx=new (XXX)这样的，但赋另外一个指针的话可以直接 XXX* xxx =yyy； yyy也是另一个指针嘛， 还有指针如果赋值相等了意味着指向的东西就完全一样了，A，B两指针 A=B之后 *A怎么变， *B也跟着变的，因为它们指向的在内存里的地址就是一个了。 
+
+## 5.Longest Common Prefix
+
+这道题的话注意下
+
+java里面求字符串中子字符串的索引位置的函数 string.indexOf(subindex) ，没找到返回-1，找到就在开头返回0
+
+这里就有很多方法，可以顺序的一一比对，并更新当前的prefix
+
+## 26. Remove Duplicates from Sorted Array
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+这题很简单，注意两点，一种是vector删除元素的三种方法,pop_back()弹出栈尾的元素,erase(xxx.begin()+xx)迭代器法和remove(),前两种都是会同时改变vector的size的，而remove不会，啊
+
+参见这个blog
+
+https://blog.csdn.net/dongyanxia1000/article/details/52838922
+
+https://blog.csdn.net/yockie/article/details/7859330
+
+还有一点就是   
+// Remember that vector.size() 's return value is size_t, which is a unsigned walue,which means when vector.size()==0, nums.size()-1 would overflow and be a very large value, which will cause a lot of problem. So you must cast nums.size() to integer and then run the code. 就是应对[]空向量的情况的，因为Leetcode 的OJ是会遍历所有的可能输入的，有一个有错你就凉凉，所以要注意啊
+
+Leetcode加油刷，你还有可能进Momenta或百度地图
