@@ -508,3 +508,10 @@ https://blog.csdn.net/yockie/article/details/7859330
 // Remember that vector.size() 's return value is size_t, which is a unsigned walue,which means when vector.size()==0, nums.size()-1 would overflow and be a very large value, which will cause a lot of problem. So you must cast nums.size() to integer and then run the code. 就是应对[]空向量的情况的，因为Leetcode 的OJ是会遍历所有的可能输入的，有一个有错你就凉凉，所以要注意啊
 
 Leetcode加油刷，你还有可能进Momenta或百度地图
+
+# 单元测试相关
+https://www.cnblogs.com/cr330326/p/7388143.html
+
+还是要努力刷Leetcode啊，然后看看宇哥的面试题
+
+算法导论，计算机视觉，PRML等等书都要看起来，否则哪儿来长足的进步
