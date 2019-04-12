@@ -483,7 +483,9 @@ https://www.cnblogs.com/-Mr-y/p/7985537.html
 
 就用正常加法的思路，看有没有进位，进位只有0和1的
 
-还有就是注意C++里指针的定义,PCL里也一样，都是 XXX*  xxx =new (XXX), pcl 人家也是 XXXPtr xxx=new (XXX)这样的，但赋另外一个指针的话可以直接 XXX* xxx =yyy； yyy也是另一个指针嘛， 还有指针如果赋值相等了意味着指向的东西就完全一样了，A，B两指针 A=B之后 *A怎么变， *B也跟着变的，因为它们指向的在内存里的地址就是一个了。 
+### 重要
+
+还有就是注意C++里指针的定义,PCL里也一样，都是 XXX*  xxx (new XXX), pcl 人家也是 XXXPtr xxx (new XXX)这样的，但赋另外一个指针的话可以直接 XXX* xxx =yyy； yyy也是另一个指针嘛， 还有指针如果赋值相等了意味着指向的东西就完全一样了，A，B两指针 A=B之后 *A怎么变， *B也跟着变的，因为它们指向的在内存里的地址就是一个了。 
 
 ## 14.Longest Common Prefix
 
