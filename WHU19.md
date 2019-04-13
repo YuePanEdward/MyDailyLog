@@ -517,3 +517,8 @@ https://www.cnblogs.com/cr330326/p/7388143.html
 还是要努力刷Leetcode啊，然后看看宇哥的面试题
 
 算法导论，计算机视觉，PRML等等书都要看起来，否则哪儿来长足的进步
+
+# 4.13
+## 注意下链表啊，你刷leetcode刷出个翔啊
+
+https://www.cnblogs.com/en-heng/p/6385910.html
