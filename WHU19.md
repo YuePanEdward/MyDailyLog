@@ -522,3 +522,44 @@ https://www.cnblogs.com/cr330326/p/7388143.html
 ## 注意下链表啊，你刷leetcode刷出个翔啊
 
 https://www.cnblogs.com/en-heng/p/6385910.html
+
+# 4.14
+## 1.写switch case语句不加break会怎样。
+
+switch case语句犯得错误：
+
+会犯这种错误，都是基础不牢固导致的。但是这样的错误却花费了我数小时去debug.想来真是很让人郁闷。
+
+看一段代码:（不想看代码直接看后面总结）
+          
+          private void arrange() {
+                 switch (direction) {
+                     case 'U': 
+                     case 'R':
+                     case 'D':
+                     case 'L':
+          
+           }
+           
+### 在这个语句中，如果direction=U。那么四个case语句都将执行。如果direction=R。将执行剩下三个语句。原因是switch语句原理是跳转到caseX位置执行剩下的语句，直到最后或者遇见break为止。
+
+因此在每一条语句最后+break即可。
+
+         private void arrange() {
+             switch (direction) {
+                  case 'U':  break；
+                  case'R':   break；
+                  case'D':  break；
+                  case'L':   break；
+          
+            }
+            
+            
+这样就能，每一个direction执行一步操作。
+
+当然还有 别的用法，比如一个direction，让他可以执行两条或者3条操作这种。
+
+### 总结：
+switch语句原理是跳转到caseX位置执行剩下所有的语句（包括其他case里面的），直到最后或者遇见break为止。因此在每一条语句最后+break即可。
+因此不加break的话将会执行跳转到的case本身以及以下所有的语句。
+
