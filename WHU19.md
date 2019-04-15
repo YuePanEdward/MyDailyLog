@@ -575,4 +575,10 @@ switch语句原理是跳转到caseX位置执行剩下所有的语句（包括其
 
 解法许多，如下 https://leetcode.com/problems/climbing-stairs/solution/
 
+注意它就是个菲布纳基数列，同时也可以用动态规划的思路来解。
+
+    dp[i]=dp[i-1]+dp[i-2]  
+    //到达i step有两种方法: 1. 到 i-1 step，再爬1 step  2. 到 i-2 step,再爬2 steps.
+    //到达i的方法数量等于 这两种情况的方法数之和
+    
 
