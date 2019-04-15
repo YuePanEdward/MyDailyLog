@@ -563,3 +563,16 @@ switch case语句犯得错误：
 switch语句原理是跳转到caseX位置执行剩下所有的语句（包括其他case里面的），直到最后或者遇见break为止。因此在每一条语句最后+break即可。
 因此不加break的话将会执行跳转到的case本身以及以下所有的语句。
 
+# 4.15
+真的要开始认真努力了。
+
+守时，自律，自尊也要自信。同时多照顾别人，别变成那个愚蠢的自己。
+
+永远别怂，心态要好
+
+## 刷leetcode
+经典问题 #70 Climbing Stairs
+
+解法许多，如下 https://leetcode.com/problems/climbing-stairs/solution/
+
+
