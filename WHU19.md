@@ -582,3 +582,17 @@ switch语句原理是跳转到caseX位置执行剩下所有的语句（包括其
     //到达i的方法数量等于 这两种情况的方法数之和
     
 
+# 4.16
+科二顺利过了，激动！
+
+努力，fighting gold.
+
+## 动态规划 Dynamic Programming
+https://blog.csdn.net/iva_brother/article/details/84037050
+
+## 分治法 Divide and Conquer 
+
+## 贪心算法
+
+## 看看算法导论呢孩子
+
