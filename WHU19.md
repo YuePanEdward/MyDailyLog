@@ -597,3 +597,15 @@ https://blog.csdn.net/xlinsist/article/details/79198842
 
 ## 看看算法导论呢孩子
 
+# 4.17
+## 算法导论 分治法部分 
+Divide -> Conquer -> Combine (In a Recursion Scheme)
+
+几个例子，归并排序 和 最大子数组，都是 O(nlogn)的复杂度，比brute force的O(n^2)要好
+
+递归式与主方法Master Method
+
+## 二叉搜索树 BST
+前中后序遍历别忘了
+
+https://blog.csdn.net/qq_33243189/article/details/80222629
