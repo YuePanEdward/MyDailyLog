@@ -611,3 +611,11 @@ Divide -> Conquer -> Combine (In a Recursion Scheme)
 https://blog.csdn.net/qq_33243189/article/details/80222629
 
 https://www.cnblogs.com/CongLollipop/p/6858260.html
+
+## 五大算法
+
+### 分治法
+https://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741370.html
+
+### 动态规划
+https://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741374.html
