@@ -619,3 +619,11 @@ https://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741370.html
 
 ### 动态规划
 https://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741374.html
+
+# 4.18
+## 日常刷leetcode
+### 判断树是否轴对称，两种方法(DFS recursion(stack)法 和 BFS 的iterative(queue)法，树类的题目基本都可以用这两种方法，只是递归的都不太好想
+https://leetcode.com/problems/symmetric-tree/solution/
+
+
+
