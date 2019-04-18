@@ -627,5 +627,9 @@ https://leetcode.com/problems/symmetric-tree/solution/
 
  //For C++ container queue, the methods are push , pop and front;[Not push_back or pop_back, and front is the first element in the queue]
 
+### 从已有vector里取出子列出来的方法
+
+     vector<int> Left (myArray.begin(),myArray.begin()+mid_index);
+     vector<int> Right(myArray.begin()+mid_index,myArray.end());
 
 
