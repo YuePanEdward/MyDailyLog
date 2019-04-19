@@ -632,4 +632,13 @@ https://leetcode.com/problems/symmetric-tree/solution/
      vector<int> Left (myArray.begin(),myArray.begin()+mid_index);
      vector<int> Right(myArray.begin()+mid_index,myArray.end());
 
+# 4.19
+## 日常刷leetcode
+别把异或(XOR)给忘了，异或就是一种半加(即不带进位的二进制加法） 
+      
+     // 异或运算 ， A 和 B 相等则结果为0， 不等则结果为1 
+     1 XOR 0 = 1 
+     0 XOR 1 = 1 
+     1 XOR 1 = 0 
+     0 XOR 0 = 0
 
