@@ -648,3 +648,18 @@ https://leetcode.com/problems/symmetric-tree/solution/
 而且满足交换律
 
 看看这道Single Number里面的方法四，也太秀了，把整个数组依次异或，重复出现两次的数都消掉了。最后就剩下落单的那个 B XOR 0 = B，也就是最后输出落单数就是连续异或的结果
+
+https://leetcode.com/problems/single-number/submissions/
+
+## C++ 其他几个和Hashtable 相关的容器
+set   unordered_set
+
+        unordered_set<int> s;
+        for(int num : nums)
+        {
+            if(s.count(num))  s.erase(num);
+            else              s.insert(num);
+        }
+        return *s.begin();
+      
+      
