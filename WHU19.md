@@ -662,4 +662,5 @@ set   unordered_set
         }
         return *s.begin();
       
-      
+## 别忘了这个常识了
+i++ （先取值，再自增） 和 ++i  （先自增，再取值）
