@@ -641,4 +641,10 @@ https://leetcode.com/problems/symmetric-tree/solution/
      0 XOR 1 = 1 
      1 XOR 1 = 0 
      0 XOR 0 = 0
+     // 其他
+     A XOR 0 = A
+     A XOR A = 0
 
+而且满足交换律
+
+看看这道Single Number里面的方法四，也太秀了，把整个数组依次异或，重复出现两次的数都消掉了。最后就剩下落单的那个 B XOR 0 = B，也就是最后输出落单数就是连续异或的结果
