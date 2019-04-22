@@ -694,3 +694,7 @@ i++ （先取值，再自增） 和 ++i  （先自增，再取值）
          //vector v 就是 sort(v.begin(),v.end());
          //array a[K] 就是 sort(a,a+K);
 
+## CloudCompare二次开发 新
+https://www.cnblogs.com/z-web-2017/p/9688564.html#4172233
+
+https://www.cnblogs.com/z-web-2017/p/10350451.html
