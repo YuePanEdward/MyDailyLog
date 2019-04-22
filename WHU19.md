@@ -664,3 +664,25 @@ set   unordered_set
       
 ## 别忘了这个常识了
 i++ （先取值，再自增） 和 ++i  （先自增，再取值）
+
+# 4.22
+## CC插件相关
+### 示例代码：
+1.qSAF： https://github.com/huihut/qSAF
+
+2.MeshIO： https://github.com/asmaloney/MeshIO
+
+3.Qt UI工程：https://github.com/huihut/CloudCompare-Qt
+
+4.CC已有插件源码
+
+5.其他几个示例代码：海量点云八叉树，基于区域生长的分割
+
+### 教程：
+1.插件框架： https://blog.huihut.com/2017/04/27/CloudCompareSAFPlugin_1_Framework/
+
+2.数据结构： https://blog.huihut.com/2017/04/27/CloudCompareSAFPlugin_2_DataStructure/
+
+3.算法实现： https://blog.huihut.com/2017/04/27/CloudCompareSAFPlugin_3_Algorithm/
+
+4.CC插件初探：https://www.cnblogs.com/yhlx125/p/5425040.html
