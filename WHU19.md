@@ -686,3 +686,11 @@ i++ （先取值，再自增） 和 ++i  （先自增，再取值）
 3.算法实现： https://blog.huihut.com/2017/04/27/CloudCompareSAFPlugin_3_Algorithm/
 
 4.CC插件初探：https://www.cnblogs.com/yhlx125/p/5425040.html
+
+## C++自带排序函数 sort
+
+          sort(nums.begin(),nums.end()); // Sort的用法要注意啊（内核是红黑树与快排）
+         //sort 对数组，对vector容器都可以用，用法也类似
+         //vector v 就是 sort(v.begin(),v.end());
+         //array a[K] 就是 sort(a,a+K);
+
