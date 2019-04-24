@@ -698,3 +698,9 @@ i++ （先取值，再自增） 和 ++i  （先自增，再取值）
 https://www.cnblogs.com/z-web-2017/p/9688564.html#4172233
 
 https://www.cnblogs.com/z-web-2017/p/10350451.html
+
+# 4.24
+## Reverse a Linked List
+两种方法，迭代法和递归法
+
+感觉递归法很难懂 https://leetcode.com/problems/reverse-linked-list/submissions/
