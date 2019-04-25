@@ -710,6 +710,10 @@ https://www.cnblogs.com/z-web-2017/p/10350451.html
 ### 各类激活函数及其区别
 https://blog.csdn.net/lilu916/article/details/77822309
 
+    Sigmoid 0~1 logistic 
+    tanh -1~1
+    Relu max(0,x)
+
 ### 迁移学习
 https://blog.csdn.net/u010159842/article/details/79202107
 
@@ -719,3 +723,9 @@ https://blog.csdn.net/u010159842/article/details/79202107
 https://blog.csdn.net/gshgsh1228/article/details/52199870/  正则化提供先验，防止过拟合
 
 https://blog.csdn.net/w5688414/article/details/78046960 正则化L1，L2范数
+
+### 增强学习
+https://blog.csdn.net/hellocsz/article/details/80724225
+
+### RNN
+https://blog.csdn.net/zhaojc1995/article/details/80572098
