@@ -704,3 +704,8 @@ https://www.cnblogs.com/z-web-2017/p/10350451.html
 两种方法，迭代法和递归法
 
 感觉递归法很难懂 https://leetcode.com/problems/reverse-linked-list/submissions/
+
+# 4.25
+## 准备面试
+### 各类激活函数及其区别
+https://blog.csdn.net/lilu916/article/details/77822309
