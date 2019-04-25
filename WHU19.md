@@ -714,3 +714,8 @@ https://blog.csdn.net/lilu916/article/details/77822309
 https://blog.csdn.net/u010159842/article/details/79202107
 
 用一些和目标问题类似的通用的预训练好的网络，只训练后面几层，或者微调前面的神经元。这样可以减少所需的训练样本数量，而起到不错的效果。
+
+### 正则化 
+https://blog.csdn.net/gshgsh1228/article/details/52199870/  正则化提供先验，防止过拟合
+
+https://blog.csdn.net/w5688414/article/details/78046960 正则化L1，L2范数
