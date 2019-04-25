@@ -709,3 +709,8 @@ https://www.cnblogs.com/z-web-2017/p/10350451.html
 ## 准备面试
 ### 各类激活函数及其区别
 https://blog.csdn.net/lilu916/article/details/77822309
+
+### 迁移学习
+https://blog.csdn.net/u010159842/article/details/79202107
+
+用一些和目标问题类似的通用的预训练好的网络，只训练后面几层，或者微调前面的神经元。这样可以减少所需的训练样本数量，而起到不错的效果。
