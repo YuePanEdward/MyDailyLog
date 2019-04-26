@@ -770,4 +770,9 @@ https://blog.csdn.net/dcx_abc/article/details/78319246
 
 作图像分类的时候不是只看单张，而是考虑图像序列和它们之间的关系
 
-### 
+### 重载和重写的区别
+https://www.cnblogs.com/upcwanghaibo/p/6527354.html
+
+很关键啊
+
+
