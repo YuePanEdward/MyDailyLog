@@ -724,7 +724,15 @@ https://blog.csdn.net/gshgsh1228/article/details/52199870/  正则化提供先�
 
 https://blog.csdn.net/w5688414/article/details/78046960 正则化L1，L2范数
 
-### 增强学习
+### 增强学习 RL
+试错与延迟反馈
+
+agent 面对environment的action 不同状态state下执行不同操作action会有不同的reward
+
+对于最终的reward通过动态规划（贝尔曼方程来摊牌到每个action上），进行学习
+
+如Flappy Bird 和下棋
+
 https://blog.csdn.net/hellocsz/article/details/80724225
 
 ### RNN
@@ -757,3 +765,9 @@ https://www.cnblogs.com/xiaowangzi1987/p/6706416.html
 
 一个生成网络，一个分类网络（二分，是真实的还是生成的假图片），左右互博，直到分类网络分不清为止结束，这时候生成网络就足够稳健了
 
+### 条件随机场CRF，隐含马尔可夫模型HMM
+https://blog.csdn.net/dcx_abc/article/details/78319246 
+
+作图像分类的时候不是只看单张，而是考虑图像序列和它们之间的关系
+
+### 
