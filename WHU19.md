@@ -799,8 +799,13 @@ Override 重写， 继承中的多态性， 父类与子类同一个函数，子
 
 ## LOAM 算法精讲 （重要）
 https://blog.csdn.net/liuyanpeng12333/article/details/82718277
-
+### 算法架构
 和源码中代码构架一样，激光里程计主要分四部分完成。首先是获得激光雷达坐标系下的点云数据P^，然后把第k次扫描获得的点云组成一帧数据Pk。然后将Pk在两个算法中进行处理，也就是上面Liar Odometry节点和Lidar Mapping节点。Liar Odometry节点的作用是获取两帧连续点云数据间的运动，估计出来的运动用于去除Pk中的运动畸变。这个节点执行的频率为10Hz，作用相当于scan-to-scan匹配获得粗糙的运动估计用于去除匀速运动造成的运动畸变，并将处理后的结果给了Lidar Mapping节点做进一步处理。Lidar Mapping节点使用地图去匹配和注册没有畸变的点云数据以1Hz的频率。最后由Transform integration节点接收前面两个节点输出的Transform信息并将其进行融合处理以活动频率为10Hz的Transform信息即里程计。
 
 ### 这里主要就是层次化的进行配准嘛，高频(10Hz)的ICP作scan-to-scan registration，把相邻帧配起来【这就有点问题了，原来是运动畸变的，还是刚性配准吗？】，然后用相邻帧配准的运动估计来改正运动畸变，此即为Lidar Odometery, 然后这样用Lidar Odomtery做10帧左右把10帧融合成一个子图Submap,然后再过10帧，再出来个Submap,用低频(1Hz)的ICP来进行Map-to-Map的配准，来修正前面scan-to-scan的累积误差，再来输出地图。（具体咋搞啊）
 ### 也就是高频低精度与低频高精度之间的一个融合
+
+### 如何高效完成scan-to-scan matching
+提关键点
+
+点云曲率计算：邻域PCA里  最小特征值/（三个特征值之和）
