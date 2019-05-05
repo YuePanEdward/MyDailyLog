@@ -809,3 +809,12 @@ https://blog.csdn.net/liuyanpeng12333/article/details/82718277
 提关键点
 
 点云曲率计算：邻域PCA里  最小特征值/（三个特征值之和）
+
+# 5.5 
+莫名拿到Sensetime intern offer,要努力啊
+## Robot state estimation 
+Gaobao 
+
+https://www.cnblogs.com/gaoxiang12/p/5560360.html
+
+## MMT oral preparation
