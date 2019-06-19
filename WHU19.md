@@ -1051,3 +1051,7 @@ ldd //usr/lib/x86_64-linux-gnu/libSM.so.6
 libuuid.so.1 => /usr/local/lib/libuuid.so.1 (0x00007f9bfb37e000)
 
 ### sudo ln -sf /lib/x86_64-linux-gnu/libuuid.so.1.3.0 /usr/local/lib/libuuid.so.1
+
+Not this problem actually
+
+refer to this web  https://www.cnblogs.com/BambooEatPanda/p/10682670.html
