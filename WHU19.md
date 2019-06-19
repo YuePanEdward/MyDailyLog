@@ -1055,3 +1055,6 @@ libuuid.so.1 => /usr/local/lib/libuuid.so.1 (0x00007f9bfb37e000)
 Not this problem actually
 
 refer to this web  https://www.cnblogs.com/BambooEatPanda/p/10682670.html
+
+## CMakeLists.txt的基本语法和实例
+https://blog.csdn.net/afei__/article/details/81201039
