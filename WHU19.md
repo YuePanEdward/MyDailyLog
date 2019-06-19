@@ -1057,4 +1057,7 @@ Not this problem actually
 refer to this web  https://www.cnblogs.com/BambooEatPanda/p/10682670.html
 
 ## CMakeLists.txt的基本语法和实例
-https://blog.csdn.net/afei__/article/details/81201039
+https://blog.csdn.net/afei__/article/details/81201039  
+
+in detail
+
