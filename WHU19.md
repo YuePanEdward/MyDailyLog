@@ -1025,3 +1025,11 @@ Linux下编译程序时，经常会遇到“undefined reference to XXX” 报错
     运行期报错 这个问题基本上是由于程序使用了dlopen方式载入.so, 但.so没有把所有需要的库都链接上,具体参加上文中对于静态库和动态库混合使用的说明
 
 ## 学习 vim， tmux, CMakeLists.txt, gdb
+
+
+## 编译器版本问题
+### 切换gcc，g++版本
+https://my.oschina.net/u/2306127/blog/538139
+
+注意了，依赖库编译时的编译器版本得和之后编译工程时的编译器版本一样，否则会出很多问题
+
