@@ -1033,3 +1033,21 @@ https://my.oschina.net/u/2306127/blog/538139
 
 注意了，依赖库编译时的编译器版本得和之后编译工程时的编译器版本一样，否则会出很多问题
 
+
+## libuuid version's problem
+
+### undefined reference to uuid_generate@UUID_1.0'
+### undefined reference touuid_unparse_lower@UUID_1.0
+
+//usr/lib/x86_64-linux-gnu/libSM.so.6: undefined reference to uuid_generate@UUID_1.0'
+//usr/lib/x86_64-linux-gnu/libSM.so.6: undefined reference touuid_unparse_lower@UUID_1.0’
+
+The system has two libuuid:
+1) /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+2) /usr/local/lib/libuuid.so.1.0.0
+
+Try to Change:
+ldd //usr/lib/x86_64-linux-gnu/libSM.so.6
+libuuid.so.1 => /usr/local/lib/libuuid.so.1 (0x00007f9bfb37e000)
+
+### sudo ln -sf /lib/x86_64-linux-gnu/libuuid.so.1.3.0 /usr/local/lib/libuuid.so.1
