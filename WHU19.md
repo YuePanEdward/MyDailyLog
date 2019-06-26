@@ -1068,3 +1068,10 @@ https://www.cs.cmu.edu/~gilpin/tutorial/
 ## Debugging C++ with VSCode and GDB
 https://medium.com/@LicHacker/debugging-c-with-vscode-and-gdb-a266eec287e3
 
+## linux基本操作
+查询命令 grep
+
+http://noahsnail.com/2017/02/07/2017-02-07-Linux%E7%BB%9F%E8%AE%A1%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E6%95%B0%E7%9B%AE/
+
+文件下（非嵌套）的文件数量
+$ ls -l | grep "^-" | wc -l
