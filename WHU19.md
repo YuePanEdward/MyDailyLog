@@ -1075,3 +1075,6 @@ http://noahsnail.com/2017/02/07/2017-02-07-Linux%E7%BB%9F%E8%AE%A1%E6%96%87%E4%B
 
 文件下（非嵌套）的文件数量
 $ ls -l | grep "^-" | wc -l
+
+## void * 指针
+The void pointer, also known as the generic pointer, is a special type of pointer that can be pointed at objects of any data type! A void pointer is declared like a normal pointer, using the void keyword as the pointer's type: 1. void *ptr; // ptr is a void pointer.
