@@ -1061,3 +1061,10 @@ https://blog.csdn.net/afei__/article/details/81201039
 
 in detail
 
+# 6.26
+## gdb入门
+https://www.cs.cmu.edu/~gilpin/tutorial/
+
+## Debugging C++ with VSCode and GDB
+https://medium.com/@LicHacker/debugging-c-with-vscode-and-gdb-a266eec287e3
+
