@@ -1090,4 +1090,10 @@ The void pointer, also known as the generic pointer, is a special type of pointe
 https://blog.csdn.net/yu876876/article/details/81698030
 
 ### vim 到底行和顶行
-gg 和 ctrl+g
+gg 和 shift+g
+
+到指定行 n:
+
+往下n行 n
+
+往上n行 nk
