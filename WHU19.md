@@ -1088,3 +1088,6 @@ The void pointer, also known as the generic pointer, is a special type of pointe
 # 7.1
 ### STL List 双向循环链表容器
 https://blog.csdn.net/yu876876/article/details/81698030
+
+### vim 到底行和顶行
+gg 和 ctrl+g
