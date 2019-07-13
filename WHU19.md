@@ -1122,5 +1122,6 @@ pcl::PointCloud<PointT>::Ptr()->swap(mycloud); //?
 说的是
 Cuda安装配置，很全很关键
 https://blog.csdn.net/tudou880306/article/details/81076000
-···
+```
  
+## htop看内存占用，很关键啊兄弟
