@@ -1097,3 +1097,28 @@ gg 和 shift+g
 往下n行 n
 
 往上n行 nk
+
+# 7.13 
+加油啊
+CMakeLists
+
+内存管理很重要
+释放内存
+
+比如一个vector<int> a
+     
+可以这样释放内存 vector<int>().swap(a);
+     
+用一个新的未定义的空（没分配内存的）vector来替换掉原来的a
+
+```
+//或者比如说
+pcl::PointCloud<PointT>::Ptr mycloud (new pcl::PointCloud<PointT> ());
+pcl::PointCloud<PointT>().swap(*mycloud); //不知道这样有用不，还是要
+pcl::PointCloud<PointT>::Ptr()->swap(mycloud); //?
+```
+
+```
+说的是
+···
+ 
