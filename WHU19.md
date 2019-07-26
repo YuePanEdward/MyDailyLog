@@ -1158,3 +1158,182 @@ Standard Deviation ，标准差
 ```
 RMSE相当于L2范数，MAE相当于L1范数。次数越高，计算结果就越与较大的值有关，而忽略较小的值，所以这就是为什么RMSE针对异常值更敏感的原因（即有一个预测值与真实值相差很大，那么RMSE就会很大）。
 ```
+
+# 7.26
+## queue 用法
+```
+入队，如例：q.push(x); 将x 接到队列的末端。
+出队，如例：q.pop(); 弹出队列的第一个元素，注意，并不会返回被弹出元素的值。
+访问队首元素，如例：q.front()，即最早被压入队列的元素。
+访问队尾元素，如例：q.back()，即最后被压入队列的元素。
+判断队列空，如例：q.empty()，当队列空时，返回true。
+```
+
+## map
+```
+Map是c++的一个标准容器，她提供了很好一对一的关系，在一些程序中建立一个map可以起到事半功倍的效果，总结了一些map基本简单实用的操作！
+1. map最基本的构造函数；
+   map<string , int >mapstring;         map<int ,string >mapint;
+   map<sring, char>mapstring;         map< char ,string>mapchar;
+   map<char ,int>mapchar;            map<int ,char >mapint；
+
+ 
+
+2. map添加数据；
+
+   map<int ,string> maplive;  
+   1.maplive.insert(pair<int,string>(102,"aclive"));
+   2.maplive.insert(map<int,string>::value_type(321,"hai"));
+   3, maplive[112]="April";//map中最简单最常用的插入添加！
+
+
+3，map中元素的查找：
+
+   find()函数返回一个迭代器指向键值为key的元素，如果没找到就返回指向map尾部的迭代器。        
+
+   map<int ,string >::iterator l_it;; 
+   l_it=maplive.find(112);
+   if(l_it==maplive.end())
+                cout<<"we do not find 112"<<endl;
+   else cout<<"wo find 112"<<endl;
+
+
+4,map中元素的删除：
+   如果删除112；
+   map<int ,string >::iterator l_it;;
+   l_it=maplive.find(112);
+   if(l_it==maplive.end())
+        cout<<"we do not find 112"<<endl;
+   else  maplive.erase(l_it);  //delete 112;
+
+
+5,map中 swap的用法：
+  Map中的swap不是一个容器中的元素交换，而是两个容器交换；
+  For example：
+  #include <map>
+  #include <iostream>
+
+  using namespace std;
+
+  int main( )
+  {
+      map <int, int> m1, m2, m3;
+      map <int, int>::iterator m1_Iter;
+
+      m1.insert ( pair <int, int>  ( 1, 10 ) );
+      m1.insert ( pair <int, int>  ( 2, 20 ) );
+      m1.insert ( pair <int, int>  ( 3, 30 ) );
+      m2.insert ( pair <int, int>  ( 10, 100 ) );
+      m2.insert ( pair <int, int>  ( 20, 200 ) );
+      m3.insert ( pair <int, int>  ( 30, 300 ) );
+
+   cout << "The original map m1 is:";
+   for ( m1_Iter = m1.begin( ); m1_Iter != m1.end( ); m1_Iter++ )
+      cout << " " << m1_Iter->second;
+      cout   << "." << endl;
+
+   // This is the member function version of swap
+   //m2 is said to be the argument map; m1 the target map
+   m1.swap( m2 );
+
+   cout << "After swapping with m2, map m1 is:";
+   for ( m1_Iter = m1.begin( ); m1_Iter != m1.end( ); m1_Iter++ )
+      cout << " " << m1_Iter -> second;
+      cout  << "." << endl;
+   cout << "After swapping with m2, map m2 is:";
+   for ( m1_Iter = m2.begin( ); m1_Iter != m2.end( ); m1_Iter++ )
+      cout << " " << m1_Iter -> second;
+      cout  << "." << endl;
+   // This is the specialized template version of swap
+   swap( m1, m3 );
+
+   cout << "After swapping with m3, map m1 is:";
+   for ( m1_Iter = m1.begin( ); m1_Iter != m1.end( ); m1_Iter++ )
+      cout << " " << m1_Iter -> second;
+      cout   << "." << endl;
+}
+
+ 
+
+6.map的sort问题：
+  Map中的元素是自动按key升序排序,所以不能对map用sort函数：
+  For example：
+  #include <map>
+  #include <iostream>
+
+  using namespace std;
+
+ int main( )
+ {
+   map <int, int> m1;
+   map <int, int>::iterator m1_Iter;
+
+   m1.insert ( pair <int, int>  ( 1, 20 ) );
+   m1.insert ( pair <int, int>  ( 4, 40 ) );
+   m1.insert ( pair <int, int>  ( 3, 60 ) );
+   m1.insert ( pair <int, int>  ( 2, 50 ) );
+   m1.insert ( pair <int, int>  ( 6, 40 ) );
+   m1.insert ( pair <int, int>  ( 7, 30 ) );
+
+   cout << "The original map m1 is:"<<endl;
+   for ( m1_Iter = m1.begin( ); m1_Iter != m1.end( ); m1_Iter++ )
+      cout <<  m1_Iter->first<<" "<<m1_Iter->second<<endl;
+  
+}
+  The original map m1 is:
+  1 20
+  2 50
+  3 60
+  4 40
+  6 40
+  7 30
+  请按任意键继续. . .
+
+ 
+
+7，   map的基本操作函数：
+      C++ Maps是一种关联式容器，包含“关键字/值”对
+      begin()          返回指向map头部的迭代器
+      clear(）         删除所有元素
+      count()          返回指定元素出现的次数
+      empty()          如果map为空则返回true
+      end()            返回指向map末尾的迭代器
+      equal_range()    返回特殊条目的迭代器对
+      erase()          删除一个元素
+      find()           查找一个元素
+      get_allocator()  返回map的配置器
+      insert()         插入元素
+      key_comp()       返回比较元素key的函数
+      lower_bound()    返回键值>=给定元素的第一个位置
+      max_size()       返回可以容纳的最大元素个数
+      rbegin()         返回一个指向map尾部的逆向迭代器
+      rend()           返回一个指向map头部的逆向迭代器
+      size()           返回map中元素的个数
+      swap()            交换两个map
+      upper_bound()     返回键值>给定元素的第一个位置
+      value_comp()      返回比较元素value的函数
+
+ 
+
+string相关
+
+string： string的若干初始化方法
+
+string test1;    //空串
+
+string test2 = "内容"; //使用=
+
+string test3("内容");   //使用引用字符数组作为参数传给构造函数
+
+string test4(test2); //用一个string初始化另一而string
+
+string test5(test2,pos,num); //从test2中的第pos个位置开始，拷贝个数为num个字符
+
+string test6 = test2 + "内容" + test3 //混合初始化
+
+string test7 = test2.substr(pos,num); //从test2中的第pos个位置开始，拷贝个数为num个字符
+
+string test8 = test2.substr(); //参数列表为空则会拷贝test2的整个对象（复制test2的简便方法）
+
+string test9(num,ch); //拷贝num个字符型ch到test
+```
